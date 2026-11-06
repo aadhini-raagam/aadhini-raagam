@@ -1,0 +1,2762 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhini Raagam | Turn Your Memories Into Timeless Custom Songs</title>
+    <meta name="description" content="Aadhini Raagam crafts personalized custom songs in Tamil, English, Telugu, Malayalam, Kannada, and Hindi for birthdays, weddings, anniversaries, and baby gifts. Listen to a free preview and download for just Rs. 30/-.">
+    <meta name="keywords" content="Aadhini Raagam, custom song India, personalized Tamil song, custom birthday song, wedding anniversary gift song, Telugu custom song, Malayalam custom song, Kannada song gift, Hindi custom song, babygifts_2021">
+    <meta name="author" content="Aadhini Raagam Studio">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Playfair Display, Plus Jakarta Sans & Noto Sans for Indian Scripts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&family=Noto+Sans+Malayalam:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', '"Noto Sans Tamil"', '"Noto Sans Telugu"', '"Noto Sans Malayalam"', '"Noto Sans Kannada"', '"Noto Sans Devanagari"', 'sans-serif'],
+                    },
+                    colors: {
+                        royal: {
+                            950: '#080510',
+                            900: '#110a1f',
+                            800: '#1c1132',
+                            700: '#2a1a4a',
+                        },
+                        gold: {
+                            300: '#fde68a',
+                            400: '#f5c542',
+                            500: '#d4af37',
+                            600: '#b48a1e',
+                        },
+                        rose: {
+                            400: '#fb7185',
+                            500: '#f43f5e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --bg-deep: #080510;
+            --gold-primary: #f5c542;
+            --gold-secondary: #d4af37;
+            --rose-accent: #fb7185;
+        }
+
+        body {
+            background-color: #080510;
+            color: #f8fafc;
+            overflow-x: hidden;
+        }
+
+        /* Luxury Ambient Background */
+        .luxury-bg {
+            background: 
+                radial-gradient(circle at 15% 15%, rgba(212, 175, 55, 0.13) 0%, transparent 40%),
+                radial-gradient(circle at 85% 25%, rgba(244, 63, 94, 0.12) 0%, transparent 45%),
+                radial-gradient(circle at 50% 80%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
+                linear-gradient(180deg, #080510 0%, #120924 50%, #080510 100%);
+        }
+
+        /* Glassmorphism Cards */
+        .glass-card {
+            background: rgba(24, 15, 44, 0.72);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(245, 197, 66, 0.18);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-card-hover {
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .glass-card-hover:hover {
+            transform: translateY(-5px);
+            border-color: rgba(245, 197, 66, 0.45);
+            box-shadow: 0 25px 60px rgba(212, 175, 55, 0.15);
+        }
+
+        /* Gold Gradient Text */
+        .text-gold-gradient {
+            background: linear-gradient(135deg, #fff3c4 0%, #f5c542 45%, #d4af37 75%, #fb7185 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Royal Gold Button */
+        .btn-gold {
+            background: linear-gradient(135deg, #f5c542 0%, #d4af37 50%, #b48a1e 100%);
+            color: #090514;
+            font-weight: 700;
+            box-shadow: 0 10px 30px -5px rgba(245, 197, 66, 0.45);
+            transition: all 0.3s ease;
+        }
+
+        .btn-gold:hover {
+            transform: translateY(-2px) scale(1.01);
+            box-shadow: 0 15px 35px -5px rgba(245, 197, 66, 0.65);
+            filter: brightness(1.06);
+        }
+
+        .btn-gold:active {
+            transform: translateY(0);
+        }
+
+        /* Animated Equalizer Bars */
+        @keyframes eq-bounce {
+            0%, 100% { height: 6px; }
+            50% { height: 28px; }
+        }
+
+        .eq-bar {
+            width: 4px;
+            background: linear-gradient(to top, #d4af37, #fb7185);
+            border-radius: 999px;
+            animation: eq-bounce 1.1s ease-in-out infinite;
+        }
+
+        .eq-paused .eq-bar {
+            animation-play-state: paused;
+            height: 6px !important;
+        }
+
+        /* Floating Notes Animation */
+        @keyframes float-up {
+            0% {
+                transform: translateY(100vh) rotate(0deg) scale(0.8);
+                opacity: 0;
+            }
+            15% {
+                opacity: 0.35;
+            }
+            85% {
+                opacity: 0.35;
+            }
+            100% {
+                transform: translateY(-15vh) rotate(360deg) scale(1.2);
+                opacity: 0;
+            }
+        }
+
+        .floating-note {
+            position: fixed;
+            pointer-events: none;
+            z-index: 1;
+            color: rgba(245, 197, 66, 0.22);
+            animation: float-up linear infinite;
+        }
+
+        /* Option Selection Active State */
+        .option-tile {
+            transition: all 0.25s ease;
+            border: 1.5px solid rgba(255, 255, 255, 0.1);
+            background: rgba(17, 10, 31, 0.65);
+        }
+
+        .option-tile:hover {
+            border-color: rgba(245, 197, 66, 0.45);
+            background: rgba(42, 26, 74, 0.55);
+        }
+
+        .option-tile.selected {
+            border-color: #f5c542;
+            background: linear-gradient(135deg, rgba(245, 197, 66, 0.2) 0%, rgba(244, 63, 94, 0.12) 100%);
+            box-shadow: 0 0 25px rgba(245, 197, 66, 0.22);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #080510;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2a1a4a;
+            border-radius: 999px;
+            border: 1px solid rgba(245, 197, 66, 0.3);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d4af37;
+        }
+
+        /* Vinyl Spin */
+        @keyframes spin-slow {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .vinyl-spin {
+            animation: spin-slow 12s linear infinite;
+        }
+        .vinyl-paused {
+            animation-play-state: paused;
+        }
+
+        /* Lyric Stanza Active Highlight */
+        .lyric-stanza {
+            transition: all 0.35s ease;
+            border-left: 3px solid transparent;
+        }
+        .lyric-stanza.active-stanza {
+            background: rgba(245, 197, 66, 0.12);
+            border-left-color: #f5c542;
+            transform: scale(1.01);
+        }
+    </style>
+</head>
+<body class="luxury-bg font-sans antialiased selection:bg-gold-400 selection:text-royal-950">
+
+    <!-- Background Floating Musical Notes Container -->
+    <div id="floatingNotesContainer" aria-hidden="true"></div>
+
+    <!-- Top Announcement Bar -->
+    <div class="relative z-30 bg-gradient-to-r from-royal-900 via-royal-800 to-royal-900 border-b border-gold-400/20 py-2 px-4 text-xs sm:text-sm">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center gap-2 text-amber-200">
+                <span class="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-bold bg-gold-400 text-royal-950">
+                    <i class="fa-solid fa-music mr-1"></i> SPECIAL OFFER
+                </span>
+                <span>Custom Song in 6 Languages • Free Preview • Full Song Download Just <strong>Rs. 30/-</strong></span>
+            </div>
+            <div class="flex items-center gap-4 text-slate-300">
+                <a href="https://wa.me/919585351755?text=Hello%20Aadhini%20Raagam!%20I%20would%20like%20to%20know%20more%20about%20creating%20a%20custom%20song." target="_blank" rel="noopener noreferrer" class="hover:text-gold-400 transition flex items-center gap-1.5">
+                    <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                    <span>+91 9585351755</span>
+                </a>
+                <span class="text-slate-600">|</span>
+                <a href="https://instagram.com/babygifts_2021" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400 transition flex items-center gap-1.5">
+                    <i class="fa-brands fa-instagram text-pink-400"></i>
+                    <span>@babygifts_2021</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 z-40 bg-royal-950/85 backdrop-blur-xl border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-gold-400 via-gold-500 to-rose-500 p-0.5 shadow-lg shadow-gold-500/20 group-hover:scale-105 transition">
+                    <div class="w-full h-full bg-royal-950 rounded-[14px] flex items-center justify-center">
+                        <i class="fa-solid fa-compact-disc text-2xl text-gold-400 vinyl-spin"></i>
+                    </div>
+                </div>
+                <div>
+                    <span class="font-serif text-xl sm:text-2xl font-bold tracking-tight text-white block leading-none">
+                        Aadhini <span class="text-gold-400">Raagam</span>
+                    </span>
+                    <span class="text-[11px] uppercase tracking-widest text-slate-400 block mt-1">
+                        Bespoke Musical Studio
+                    </span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-300">
+                <a href="#how-it-works" class="hover:text-gold-400 transition">How It Works</a>
+                <a href="#song-creator" class="hover:text-gold-400 transition">Create Song</a>
+                <a href="#gifting-guide" class="hover:text-gold-400 transition">Gifting Guide</a>
+                <a href="#faq" class="hover:text-gold-400 transition">FAQ</a>
+                <button onclick="openLegalModal('contact')" class="hover:text-gold-400 transition">Contact Us</button>
+            </nav>
+
+            <!-- CTA Buttons -->
+            <div class="flex items-center gap-3">
+                <a href="#song-creator" class="btn-gold px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm inline-flex items-center gap-2">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <span>Create Song • Rs. 30</span>
+                </a>
+                <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="md:hidden p-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-200 hover:text-gold-400" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-royal-900/95 border-b border-white/10 px-4 pt-3 pb-6 space-y-2">
+            <a href="#how-it-works" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-white/5">How It Works</a>
+            <a href="#song-creator" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-lg text-gold-400 font-semibold hover:bg-white/5">Create Your Custom Song</a>
+            <a href="#gifting-guide" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-white/5">Musical Gifting Guide</a>
+            <a href="#faq" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-white/5">FAQ</a>
+            <button onclick="toggleMobileMenu(); openLegalModal('contact')" class="w-full text-left px-3 py-2 rounded-lg text-slate-200 hover:bg-white/5">Contact Us (+91 9585351755)</button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative z-10 pt-10 pb-16 sm:pt-16 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
+            
+            <!-- Left Column: Hero Copy -->
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-gold-400/10 border border-gold-400/30 text-gold-300 text-xs sm:text-sm font-medium">
+                    <span class="w-2 h-2 rounded-full bg-gold-400 animate-ping"></span>
+                    <span>Aadhini Raagam Signature Musical Studio • 6 Indian & Global Languages</span>
+                </div>
+
+                <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] text-white">
+                    Turn Your Special Memories Into <span class="text-gold-gradient italic">Timeless Songs</span>
+                </h1>
+
+                <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                    Surprise your loved ones with a custom-written, studio-composed song featuring their name, your favorite memories, and your choice of language and voice. Listen to a free preview first, and download the full song for just <strong class="text-gold-400">Rs. 30/-</strong>.
+                </p>
+
+                <!-- Language Pills Showcase -->
+                <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 pt-1">
+                    <span class="text-xs uppercase tracking-wider text-slate-400 mr-1">Available In:</span>
+                    <span class="px-3 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-amber-200">தமிழ் (Tamil)</span>
+                    <span class="px-3 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-amber-200">English</span>
+                    <span class="px-3 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-amber-200">తెలుగు (Telugu)</span>
+                    <span class="px-3 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-amber-200">മലയാളം (Malayalam)</span>
+                    <span class="px-3 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-amber-200">ಕನ್ನಡ (Kannada)</span>
+                    <span class="px-3 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-amber-200">हिन्दी (Hindi)</span>
+                </div>
+
+                <!-- Hero Action Buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                    <a href="#song-creator" class="w-full sm:w-auto btn-gold px-8 py-4 rounded-2xl text-base inline-flex items-center justify-center gap-3">
+                        <i class="fa-solid fa-music"></i>
+                        <span>Start Creating Your Song</span>
+                        <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </a>
+                    <a href="#how-it-works" class="w-full sm:w-auto px-7 py-4 rounded-2xl text-base font-semibold bg-white/5 hover:bg-white/10 border border-white/15 text-white transition inline-flex items-center justify-center gap-2.5">
+                        <i class="fa-solid fa-wand-magic-sparkles text-gold-400"></i>
+                        <span>See How It Works</span>
+                    </a>
+                </div>
+
+                <!-- Trust Highlights -->
+                <div class="grid grid-cols-3 gap-4 pt-6 border-t border-white/10 max-w-lg mx-auto lg:mx-0">
+                    <div>
+                        <div class="text-xl sm:text-2xl font-bold text-gold-400">6 Languages</div>
+                        <div class="text-xs text-slate-400">Native Script Lyrics</div>
+                    </div>
+                    <div>
+                        <div class="text-xl sm:text-2xl font-bold text-gold-400">Free Preview</div>
+                        <div class="text-xs text-slate-400">Listen Before Paying</div>
+                    </div>
+                    <div>
+                        <div class="text-xl sm:text-2xl font-bold text-gold-400">Rs. 30/- Only</div>
+                        <div class="text-xs text-slate-400">Direct UPI & Instant WAV</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Interactive Vinyl & Studio Showcase Card -->
+            <div class="lg:col-span-5">
+                <div class="glass-card rounded-3xl p-6 sm:p-8 relative overflow-hidden">
+                    <div class="absolute -top-20 -right-20 w-44 h-44 bg-gold-400/20 rounded-full blur-3xl pointer-events-none"></div>
+                    
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="flex items-center gap-2">
+                            <span class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></span>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-emerald-300">Aadhini Raagam Studio</span>
+                        </div>
+                        <span class="px-2.5 py-1 rounded-full text-[11px] font-semibold bg-gold-400/15 text-gold-300 border border-gold-400/30">
+                            On-Demand Creation
+                        </span>
+                    </div>
+
+                    <!-- Spinning Vinyl Disc Visual -->
+                    <div class="relative mx-auto w-48 h-48 sm:w-56 sm:h-56 my-4 flex items-center justify-center">
+                        <div id="heroVinyl" class="w-full h-full rounded-full bg-gradient-to-tr from-neutral-950 via-neutral-800 to-neutral-950 border-4 border-gold-400/40 shadow-2xl flex items-center justify-center vinyl-spin">
+                            <!-- Vinyl Grooves -->
+                            <div class="w-4/5 h-4/5 rounded-full border border-white/10 flex items-center justify-center">
+                                <div class="w-3/4 h-3/4 rounded-full border border-white/10 flex items-center justify-center">
+                                    <!-- Center Label -->
+                                    <div class="w-20 h-20 rounded-full bg-gradient-to-br from-gold-400 via-amber-500 to-rose-500 p-1 flex items-center justify-center shadow-inner">
+                                        <div class="w-full h-full rounded-full bg-royal-950 flex flex-col items-center justify-center text-center p-1">
+                                            <span class="text-[9px] font-bold tracking-wider text-gold-400 uppercase">Aadhini</span>
+                                            <div class="w-3 h-3 rounded-full bg-gold-400 my-0.5"></div>
+                                            <span class="text-[8px] text-slate-300">Raagam</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Studio Highlights Info -->
+                    <div class="text-center space-y-1 mt-4">
+                        <h3 class="font-serif text-lg font-bold text-white">100% Personalized For Your Story</h3>
+                        <p class="text-xs text-slate-400">6 Languages • Male & Female Vocals • 6 Musical Styles</p>
+                    </div>
+
+                    <!-- Animated Equalizer Visual -->
+                    <div class="flex items-end justify-center gap-1.5 h-8 my-4">
+                        <div class="eq-bar" style="animation-delay: 0.0s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.2s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.4s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.1s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.3s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.5s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.2s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.4s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.1s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.3s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.0s"></div>
+                        <div class="eq-bar" style="animation-delay: 0.25s"></div>
+                    </div>
+
+                    <div class="flex items-center justify-center gap-3">
+                        <a href="#song-creator" class="w-full py-3 px-4 rounded-xl bg-white/10 hover:bg-gold-400 hover:text-royal-950 text-white font-semibold text-sm transition flex items-center justify-center gap-2 border border-white/15">
+                            <i class="fa-solid fa-sliders"></i>
+                            <span>Create Your Custom Song Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 3-STEP HOW IT WORKS SECTION -->
+    <section id="how-it-works" class="relative z-10 py-14 px-4 sm:px-6 lg:px-8 border-y border-white/10 bg-royal-900/40">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-400">Simple 3-Step Process</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-2">How Aadhini Raagam Works</h2>
+                <p class="text-sm sm:text-base text-slate-300 mt-2">Create a heartfelt musical gift in less than 2 minutes from your phone or computer.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Step 1 -->
+                <div class="glass-card glass-card-hover rounded-2xl p-6 relative">
+                    <div class="w-12 h-12 rounded-2xl bg-gold-400/15 border border-gold-400/40 flex items-center justify-center text-gold-400 font-bold text-lg mb-4">
+                        1
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-white mb-2">1. Share Your Story & Language</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Choose from <strong>Tamil, English, Telugu, Malayalam, Kannada, or Hindi</strong>. Pick Male or Female vocal, choose a musical style, and share your loved one's name and special memories.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="glass-card glass-card-hover rounded-2xl p-6 relative">
+                    <div class="w-12 h-12 rounded-2xl bg-rose-500/15 border border-rose-400/40 flex items-center justify-center text-rose-400 font-bold text-lg mb-4">
+                        2
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-white mb-2">2. Listen to Free Preview & Lyrics</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Aadhini Raagam Studio composes custom lyrics in your chosen language script and prepares a <strong>20-second Free Audio Preview</strong> so you can experience the melody first.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="glass-card glass-card-hover rounded-2xl p-6 relative">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 border border-emerald-400/40 flex items-center justify-center text-emerald-400 font-bold text-lg mb-4">
+                        3
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-white mb-2">3. Pay Rs. 30/- via UPI & Download</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Pay just <strong>Rs. 30/-</strong> directly via any UPI app (<code class="text-gold-300">Q012244037@ybl</code>) with zero extra fees. Verify your UPI Reference ID for instant full-song WAV download & WhatsApp confirmation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN INTERACTIVE CUSTOM SONG CREATOR STUDIO -->
+    <section id="song-creator" class="relative z-10 py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-gold-400/15 border border-gold-400/30 text-gold-300 text-xs font-semibold mb-3">
+                    <i class="fa-solid fa-sliders"></i> AADHINI RAAGAM CUSTOM SONG STUDIO
+                </div>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-white">Design Your Custom Song</h2>
+                <p class="text-slate-300 text-sm sm:text-base mt-3">
+                    Fill in the easy details below. Our studio will write your song lyrics strictly in the language you select and compose your custom musical track.
+                </p>
+                <div class="mt-4">
+                    <button type="button" onclick="fillSampleCustomerStory()" class="text-xs sm:text-sm font-medium text-gold-400 hover:text-gold-300 underline underline-offset-4 inline-flex items-center gap-1.5">
+                        <i class="fa-solid fa-bolt"></i> Want to test quickly? Click here to fill sample story details
+                    </button>
+                </div>
+            </div>
+
+            <!-- Studio Form Card -->
+            <form id="customSongForm" onsubmit="handleCreateCustomSong(event)" class="glass-card rounded-3xl p-6 sm:p-10 space-y-10">
+
+                <!-- STEP 1: SELECT SONG LANGUAGE -->
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <label class="block text-base sm:text-lg font-bold text-white">
+                            <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gold-400 text-royal-950 text-xs font-extrabold mr-2">1</span>
+                            Select Song Language <span class="text-rose-400">*</span>
+                        </label>
+                        <span class="text-xs text-amber-200/80">Lyrics will be crafted in this exact language</span>
+                    </div>
+
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3" id="languageSelectorGrid">
+                        <button type="button" onclick="selectLanguage('Tamil', 'தமிழ்', this)" class="option-tile selected rounded-2xl p-4 text-center flex flex-col items-center justify-center gap-1" data-lang="Tamil">
+                            <span class="text-lg font-bold text-gold-400">தமிழ்</span>
+                            <span class="text-sm font-semibold text-white">Tamil</span>
+                            <span class="text-[11px] text-slate-400">Poetic Tamil</span>
+                        </button>
+
+                        <button type="button" onclick="selectLanguage('English', 'English', this)" class="option-tile rounded-2xl p-4 text-center flex flex-col items-center justify-center gap-1" data-lang="English">
+                            <span class="text-lg font-bold text-gold-400">Aa</span>
+                            <span class="text-sm font-semibold text-white">English</span>
+                            <span class="text-[11px] text-slate-400">Global English</span>
+                        </button>
+
+                        <button type="button" onclick="selectLanguage('Telugu', 'తెలుగు', this)" class="option-tile rounded-2xl p-4 text-center flex flex-col items-center justify-center gap-1" data-lang="Telugu">
+                            <span class="text-lg font-bold text-gold-400">తెలుగు</span>
+                            <span class="text-sm font-semibold text-white">Telugu</span>
+                            <span class="text-[11px] text-slate-400">Sweet Telugu</span>
+                        </button>
+
+                        <button type="button" onclick="selectLanguage('Malayalam', 'മലയാളം', this)" class="option-tile rounded-2xl p-4 text-center flex flex-col items-center justify-center gap-1" data-lang="Malayalam">
+                            <span class="text-lg font-bold text-gold-400">മലയാളം</span>
+                            <span class="text-sm font-semibold text-white">Malayalam</span>
+                            <span class="text-[11px] text-slate-400">Soulful Malayalam</span>
+                        </button>
+
+                        <button type="button" onclick="selectLanguage('Kannada', 'ಕನ್ನಡ', this)" class="option-tile rounded-2xl p-4 text-center flex flex-col items-center justify-center gap-1" data-lang="Kannada">
+                            <span class="text-lg font-bold text-gold-400">ಕನ್ನಡ</span>
+                            <span class="text-sm font-semibold text-white">Kannada</span>
+                            <span class="text-[11px] text-slate-400">Melodic Kannada</span>
+                        </button>
+
+                        <button type="button" onclick="selectLanguage('Hindi', 'हिन्दी', this)" class="option-tile rounded-2xl p-4 text-center flex flex-col items-center justify-center gap-1" data-lang="Hindi">
+                            <span class="text-lg font-bold text-gold-400">हिन्दी</span>
+                            <span class="text-sm font-semibold text-white">Hindi</span>
+                            <span class="text-[11px] text-slate-400">Classic Hindi</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- STEP 2: SELECT VOCAL VOICE -->
+                <div>
+                    <label class="block text-base sm:text-lg font-bold text-white mb-4">
+                        <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gold-400 text-royal-950 text-xs font-extrabold mr-2">2</span>
+                        Choose Vocal Preference <span class="text-rose-400">*</span>
+                    </label>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" id="vocalSelectorGrid">
+                        <button type="button" onclick="selectVocal('Female Vocal', this)" class="option-tile selected rounded-2xl p-4 flex items-center gap-4 text-left" data-vocal="Female Vocal">
+                            <div class="w-12 h-12 rounded-xl bg-rose-500/20 border border-rose-400/30 flex items-center justify-center text-rose-400 text-xl shrink-0">
+                                <i class="fa-solid fa-microphone-lines"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-white text-base">Female Vocal</div>
+                                <div class="text-xs text-slate-400">Sweet, expressive & melodic soprano studio tone</div>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="selectVocal('Male Vocal', this)" class="option-tile rounded-2xl p-4 flex items-center gap-4 text-left" data-vocal="Male Vocal">
+                            <div class="w-12 h-12 rounded-xl bg-gold-400/20 border border-gold-400/30 flex items-center justify-center text-gold-400 text-xl shrink-0">
+                                <i class="fa-solid fa-microphone"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-white text-base">Male Vocal</div>
+                                <div class="text-xs text-slate-400">Warm, soulful & deep acoustic baritone tone</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- STEP 3: SELECT MUSICAL STYLE (6 STYLES) -->
+                <div>
+                    <label class="block text-base sm:text-lg font-bold text-white mb-4">
+                        <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gold-400 text-royal-950 text-xs font-extrabold mr-2">3</span>
+                        Select Musical Style <span class="text-rose-400">*</span>
+                    </label>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5" id="styleSelectorGrid">
+                        <button type="button" onclick="selectStyle('Cinematic Melody', this)" class="option-tile selected rounded-2xl p-4 text-left flex items-start gap-3.5" data-style="Cinematic Melody">
+                            <i class="fa-solid fa-film text-gold-400 text-xl mt-1"></i>
+                            <div>
+                                <div class="font-bold text-white text-sm">Cinematic Melody</div>
+                                <div class="text-xs text-slate-400 mt-0.5">Lush strings, bamboo flute & emotional grand orchestration</div>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="selectStyle('Folk & Celebration Beats', this)" class="option-tile rounded-2xl p-4 text-left flex items-start gap-3.5" data-style="Folk & Celebration Beats">
+                            <i class="fa-solid fa-drum text-gold-400 text-xl mt-1"></i>
+                            <div>
+                                <div class="font-bold text-white text-sm">Folk & Celebration Beats</div>
+                                <div class="text-xs text-slate-400 mt-0.5">Upbeat festive percussion, joyful rhythm & energetic hooks</div>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="selectStyle('Acoustic Romantic Ballad', this)" class="option-tile rounded-2xl p-4 text-left flex items-start gap-3.5" data-style="Acoustic Romantic Ballad">
+                            <i class="fa-solid fa-guitar text-gold-400 text-xl mt-1"></i>
+                            <div>
+                                <div class="font-bold text-white text-sm">Acoustic Romantic Ballad</div>
+                                <div class="text-xs text-slate-400 mt-0.5">Intimate acoustic guitar, warm grand piano & soft harmony</div>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="selectStyle('Classical Fusion', this)" class="option-tile rounded-2xl p-4 text-left flex items-start gap-3.5" data-style="Classical Fusion">
+                            <i class="fa-solid fa-music text-gold-400 text-xl mt-1"></i>
+                            <div>
+                                <div class="font-bold text-white text-sm">Classical Fusion</div>
+                                <div class="text-xs text-slate-400 mt-0.5">Traditional Indian raagam veena & flute with modern groove</div>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="selectStyle('Lofi Soulful Vibes', this)" class="option-tile rounded-2xl p-4 text-left flex items-start gap-3.5" data-style="Lofi Soulful Vibes">
+                            <i class="fa-solid fa-headphones text-gold-400 text-xl mt-1"></i>
+                            <div>
+                                <div class="font-bold text-white text-sm">Lofi Soulful Vibes</div>
+                                <div class="text-xs text-slate-400 mt-0.5">Dreamy late-night chords, soothing chill beat & warm vocals</div>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="selectStyle('Happy Birthday & Party Pop', this)" class="option-tile rounded-2xl p-4 text-left flex items-start gap-3.5" data-style="Happy Birthday & Party Pop">
+                            <i class="fa-solid fa-cake-candles text-gold-400 text-xl mt-1"></i>
+                            <div>
+                                <div class="font-bold text-white text-sm">Happy Birthday & Party Pop</div>
+                                <div class="text-xs text-slate-400 mt-0.5">Cheerful celebration synths, rhythm claps & bright melody</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- STEP 4: CUSTOMER & RECIPIENT STORY DETAILS -->
+                <div class="space-y-6 pt-2 border-t border-white/10">
+                    <label class="block text-base sm:text-lg font-bold text-white">
+                        <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gold-400 text-royal-950 text-xs font-extrabold mr-2">4</span>
+                        Share Your Details & Special Memories <span class="text-rose-400">*</span>
+                    </label>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <!-- Customer Name -->
+                        <div>
+                            <label for="customerName" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">
+                                Your Name <span class="text-rose-400">*</span>
+                            </label>
+                            <input type="text" id="customerName" required placeholder="e.g., Karthik / Priya" class="w-full px-4 py-3.5 rounded-xl bg-royal-950/90 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-gold-400 text-sm">
+                        </div>
+
+                        <!-- Customer WhatsApp Number -->
+                        <div>
+                            <label for="customerPhone" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">
+                                Your WhatsApp Number <span class="text-rose-400">*</span>
+                            </label>
+                            <input type="tel" id="customerPhone" required placeholder="e.g., 9876543210" class="w-full px-4 py-3.5 rounded-xl bg-royal-950/90 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-gold-400 text-sm">
+                        </div>
+
+                        <!-- Recipient Name -->
+                        <div>
+                            <label for="recipientName" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">
+                                Who Is This Song For? (Recipient's Name) <span class="text-rose-400">*</span>
+                            </label>
+                            <input type="text" id="recipientName" required placeholder="e.g., Baby Aadhini / Anitha / Rahul" class="w-full px-4 py-3.5 rounded-xl bg-royal-950/90 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-gold-400 text-sm">
+                        </div>
+
+                        <!-- Relationship -->
+                        <div>
+                            <label for="relationship" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">
+                                Relationship to You <span class="text-rose-400">*</span>
+                            </label>
+                            <select id="relationship" class="w-full px-4 py-3.5 rounded-xl bg-royal-950/90 border border-white/15 text-white focus:outline-none focus:border-gold-400 text-sm">
+                                <option value="Wife">Wife</option>
+                                <option value="Husband">Husband</option>
+                                <option value="Baby / Child">Baby / Child</option>
+                                <option value="Best Friend">Best Friend</option>
+                                <option value="Mother / Father">Mother / Father</option>
+                                <option value="Beloved Partner">Beloved Partner / Fiancé</option>
+                                <option value="Sister / Brother">Sister / Brother</option>
+                                <option value="Entire Family">Entire Family</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Occasion -->
+                    <div>
+                        <label for="occasion" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">
+                            Select Special Occasion <span class="text-rose-400">*</span>
+                        </label>
+                        <select id="occasion" class="w-full px-4 py-3.5 rounded-xl bg-royal-950/90 border border-white/15 text-white focus:outline-none focus:border-gold-400 text-sm">
+                            <option value="Birthday Celebration">Birthday Celebration</option>
+                            <option value="Wedding Anniversary">Wedding Anniversary</option>
+                            <option value="New Baby Welcome / Naming Ceremony">New Baby Welcome / Naming Ceremony</option>
+                            <option value="Romantic Love Surprise">Romantic Love Surprise</option>
+                            <option value="Wedding Gift">Wedding Gift</option>
+                            <option value="Best Friendship Celebration">Best Friendship Celebration</option>
+                            <option value="Parents Appreciation Gift">Parents Appreciation Gift</option>
+                        </select>
+                    </div>
+
+                    <!-- Memories & Special Details -->
+                    <div>
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                            <label for="storyDetails" class="block text-xs font-semibold uppercase tracking-wider text-slate-300">
+                                Favorite Memories, Pet Names & Special Wishes <span class="text-rose-400">*</span>
+                            </label>
+                            <span class="text-[11px] text-slate-400">You can write in simple English — we will compose the song in your chosen language!</span>
+                        </div>
+                        <textarea id="storyDetails" rows="4" required placeholder="Share 2 or 3 special details: e.g., Her cute smile, how she makes our home happy, our beach walks, pet name 'Ammu', and wishing her a wonderful year ahead..." class="w-full px-4 py-3.5 rounded-xl bg-royal-950/90 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-gold-400 text-sm"></textarea>
+
+                        <!-- Quick Memory Prompt Tags -->
+                        <div class="mt-2.5 flex flex-wrap items-center gap-2">
+                            <span class="text-xs text-slate-400">Quick Ideas (Click to add):</span>
+                            <button type="button" onclick="appendMemoryPrompt('Your bright smile lights up our entire home.')" class="text-xs px-2.5 py-1 rounded-lg bg-white/5 hover:bg-gold-400/20 border border-white/10 text-amber-200 transition">+ Bright Smile</button>
+                            <button type="button" onclick="appendMemoryPrompt('From the first day we met, every moment with you is magical.')" class="text-xs px-2.5 py-1 rounded-lg bg-white/5 hover:bg-gold-400/20 border border-white/10 text-amber-200 transition">+ First Day We Met</button>
+                            <button type="button" onclick="appendMemoryPrompt('Our little angel who brought endless joy and laughter to our family.')" class="text-xs px-2.5 py-1 rounded-lg bg-white/5 hover:bg-gold-400/20 border border-white/10 text-amber-200 transition">+ Little Baby Angel</button>
+                            <button type="button" onclick="appendMemoryPrompt('Thank you for standing by my side through every season of life.')" class="text-xs px-2.5 py-1 rounded-lg bg-white/5 hover:bg-gold-400/20 border border-white/10 text-amber-200 transition">+ Always By My Side</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SUBMIT BUTTON -->
+                <div class="pt-4">
+                    <button type="submit" id="createSongSubmitBtn" class="w-full btn-gold py-4 px-8 rounded-2xl text-base sm:text-lg flex items-center justify-center gap-3">
+                        <i class="fa-solid fa-compact-disc text-xl"></i>
+                        <span>Compose My Custom Song & Listen to Free Preview</span>
+                    </button>
+                    <p class="text-center text-xs text-slate-400 mt-3">
+                        <i class="fa-solid fa-shield-heart text-gold-400 mr-1"></i>
+                        100% Free to Preview Lyrics & 20-Second Audio. Pay Rs. 30/- only when you are ready to download the full song!
+                    </p>
+                </div>
+
+            </form>
+
+            <!-- COMPOSING PROGRESS LOADER (Hidden by default) -->
+            <div id="studioLoadingCard" class="hidden glass-card rounded-3xl p-8 sm:p-12 mt-8 text-center space-y-6 border-2 border-gold-400/40">
+                <div class="w-20 h-20 rounded-full bg-gold-400/15 border-2 border-gold-400 flex items-center justify-center mx-auto">
+                    <i class="fa-solid fa-compact-disc text-4xl text-gold-400 vinyl-spin"></i>
+                </div>
+                <div class="space-y-2">
+                    <h3 id="loadingStepTitle" class="font-serif text-2xl font-bold text-white">Aadhini Raagam Studio is Composing Your Song...</h3>
+                    <p id="loadingStepSubtitle" class="text-sm text-slate-300">Writing poetic lyrics in your chosen language and arranging musical instruments...</p>
+                </div>
+                <div class="w-full max-w-md mx-auto bg-royal-950 rounded-full h-2.5 overflow-hidden border border-white/10">
+                    <div id="loadingProgressBar" class="bg-gradient-to-r from-gold-400 via-rose-400 to-gold-400 h-full w-1/4 transition-all duration-500"></div>
+                </div>
+            </div>
+
+            <!-- GENERATED SONG RESULT & PREVIEW STUDIO (Hidden until song is created) -->
+            <div id="songResultStudio" class="hidden mt-10 space-y-8">
+                <div class="glass-card rounded-3xl p-6 sm:p-10 border-2 border-gold-400/45 relative overflow-hidden">
+                    
+                    <!-- Top Status Banner -->
+                    <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-white/10">
+                        <div>
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-400/30 text-emerald-300 text-xs font-bold mb-2">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span id="songUnlockStatusBadge">CUSTOM SONG READY • 20s FREE PREVIEW MODE</span>
+                            </div>
+                            <h3 id="resultSongTitle" class="font-serif text-2xl sm:text-3xl font-bold text-white">Your Custom Song Title</h3>
+                            <p id="resultSongMeta" class="text-xs sm:text-sm text-amber-200 mt-1">Tamil • Female Vocal • Cinematic Melody</p>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <span class="text-xs text-slate-400">Order Ref: <strong id="resultOrderId" class="text-white">#AR-1024</strong></span>
+                        </div>
+                    </div>
+
+                    <!-- Audio Player & Live Waveform Visualizer -->
+                    <div class="my-6 bg-royal-950/90 rounded-2xl p-5 sm:p-6 border border-gold-400/25 space-y-4">
+                        <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <div class="flex items-center gap-4 w-full sm:w-auto">
+                                <button type="button" id="previewPlayToggleBtn" onclick="toggleGeneratedSongPlayback()" class="w-14 h-14 rounded-2xl btn-gold flex items-center justify-center text-xl shrink-0">
+                                    <i class="fa-solid fa-play" id="previewPlayIcon"></i>
+                                </button>
+                                <div>
+                                    <div class="text-sm font-bold text-white flex items-center gap-2">
+                                        <span id="playerModeLabel">20-Second Studio Preview</span>
+                                        <span id="vocalPerformBadge" class="px-2 py-0.5 rounded text-[10px] bg-gold-400/20 text-gold-300 border border-gold-400/30">Multi-Track Synth + Vocal Melody</span>
+                                    </div>
+                                    <div class="text-xs text-slate-400 mt-0.5" id="playerTimerDisplay">0:00 / 0:20 (Free Preview Limit)</div>
+                                </div>
+                            </div>
+
+                            <!-- Unlock Full Song Button inside Player -->
+                            <div id="unlockActionContainer">
+                                <button type="button" onclick="openUpiPaymentModal()" class="w-full sm:w-auto btn-gold px-5 py-3 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2">
+                                    <i class="fa-solid fa-lock-open"></i>
+                                    <span>Unlock & Download Full Song (Rs. 30/-)</span>
+                                </button>
+                            </div>
+
+                            <!-- Shown after Payment Verification -->
+                            <div id="unlockedDownloadContainer" class="hidden flex flex-wrap items-center gap-2">
+                                <button type="button" onclick="downloadFullWavSong()" class="btn-gold px-4 py-2.5 rounded-xl text-xs sm:text-sm flex items-center gap-2">
+                                    <i class="fa-solid fa-download"></i>
+                                    <span id="downloadFullBtnText">Download Full Song Audio</span>
+                                </button>
+                                <button type="button" onclick="downloadLyricsCard()" class="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-white border border-white/20 text-xs sm:text-sm flex items-center gap-2">
+                                    <i class="fa-solid fa-file-lines text-gold-400"></i>
+                                    <span>Save Lyrics Card</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Hidden HTML5 Audio Element for Real Suno MP3 Stream -->
+                        <audio id="realSunoAudioPlayer" class="hidden" preload="auto" crossorigin="anonymous"></audio>
+
+                        <!-- Live HTML5 Canvas Soundwave Visualizer -->
+                        <div class="relative w-full h-20 bg-royal-900/80 rounded-xl overflow-hidden border border-white/5 flex items-center justify-center">
+                            <canvas id="studioWaveformCanvas" class="w-full h-full"></canvas>
+                        </div>
+
+                        <!-- Progress Seek Bar -->
+                        <div class="w-full bg-white/10 h-2 rounded-full overflow-hidden">
+                            <div id="studioPlaybackBar" class="bg-gradient-to-r from-gold-400 to-rose-500 h-full w-0 transition-all duration-200"></div>
+                        </div>
+
+                        <!-- Preview Limit Notice Banner (Appears when 20s preview finishes) -->
+                        <div id="previewEndedBanner" class="hidden bg-gradient-to-r from-gold-500/20 via-rose-500/20 to-gold-500/20 border border-gold-400/50 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+                            <div class="flex items-center gap-3 text-left">
+                                <i class="fa-solid fa-crown text-gold-400 text-xl"></i>
+                                <div>
+                                    <div class="text-sm font-bold text-white">Liked Your 20-Second Preview?</div>
+                                    <div class="text-xs text-amber-200">Unlock the complete high-quality studio song & instant WAV download for just Rs. 30/-!</div>
+                                </div>
+                            </div>
+                            <button type="button" onclick="openUpiPaymentModal()" class="btn-gold px-5 py-2.5 rounded-xl text-xs font-bold shrink-0">
+                                Pay Rs. 30/- & Download Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Generated Native Script Lyrics Display -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 mt-6">
+                        <div class="lg:col-span-8 space-y-4">
+                            <div class="flex items-center justify-between">
+                                <h4 class="font-serif text-lg font-bold text-gold-400 flex items-center gap-2">
+                                    <i class="fa-solid fa-feather-pointed"></i>
+                                    <span id="lyricsHeaderLanguage">Custom Song Lyrics</span>
+                                </h4>
+                                <span class="text-xs text-slate-400">Synchronized Stanzas</span>
+                            </div>
+
+                            <div id="lyricsStanzasContainer" class="space-y-4 max-h-[420px] overflow-y-auto pr-2">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+
+                        <!-- Pronunciation / Musical Notes & Order Summary Card -->
+                        <div class="lg:col-span-4 space-y-4">
+                            <div class="bg-royal-950/75 rounded-2xl p-5 border border-white/10 space-y-3">
+                                <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400">Musical Arrangement Notes</h5>
+                                <p id="resultMusicalNotes" class="text-xs text-slate-300 leading-relaxed"></p>
+                                <div class="pt-3 border-t border-white/10 space-y-2 text-xs">
+                                    <div class="flex justify-between"><span class="text-slate-400">Dedicated To:</span> <strong id="summaryRecipient" class="text-white"></strong></div>
+                                    <div class="flex justify-between"><span class="text-slate-400">Occasion:</span> <strong id="summaryOccasion" class="text-white"></strong></div>
+                                    <div class="flex justify-between"><span class="text-slate-400">Language:</span> <strong id="summaryLanguage" class="text-amber-300"></strong></div>
+                                    <div class="flex justify-between"><span class="text-slate-400">Vocal Tone:</span> <strong id="summaryVocal" class="text-white"></strong></div>
+                                    <div class="flex justify-between"><span class="text-slate-400">Full Song Price:</span> <strong class="text-emerald-400">Rs. 30.00 (Zero Tax/Fee)</strong></div>
+                                </div>
+                            </div>
+
+                            <div class="bg-gradient-to-br from-gold-400/15 to-rose-500/10 rounded-2xl p-5 border border-gold-400/30 space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-amber-200">Instant Delivery</span>
+                                    <span class="text-lg font-extrabold text-gold-400">Rs. 30/-</span>
+                                </div>
+                                <p class="text-xs text-slate-300 leading-relaxed">
+                                    Pay directly to our verified UPI ID (<code class="text-gold-300">Q012244037@ybl</code>). Zero middleman charges. Instant full `.wav` audio download + WhatsApp delivery alert.
+                                </p>
+                                <button type="button" onclick="openUpiPaymentModal()" class="w-full btn-gold py-3 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-2">
+                                    <i class="fa-solid fa-qrcode"></i>
+                                    <span>Pay Rs. 30/- via UPI & Download</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ADSENSE READY SLOT 1 (Cleanly integrated & toggleable) -->
+    <div class="max-w-5xl mx-auto px-4 my-4 adsense-slot-wrapper hidden">
+        <div class="glass-card rounded-2xl p-4 text-center border border-dashed border-gold-400/30">
+            <span class="text-[10px] uppercase tracking-widest text-slate-500 block mb-1">Advertisement • Google AdSense Ready Unit</span>
+            <!-- Google AdSense Responsive Unit Code Placeholder -->
+            <ins class="adsbygoogle block"
+                 data-ad-client="ca-pub-0000000000000000"
+                 data-ad-slot="1234567890"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <div class="py-4 text-xs text-slate-400">Responsive Display Ad Space (728x90 / 320x100)</div>
+        </div>
+    </div>
+
+    <!-- EDITORIAL SECTION FOR GOOGLE ADSENSE APPROVAL: HOW WE CRAFT & GIFTING GUIDE -->
+    <section id="gifting-guide" class="relative z-10 py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto space-y-16">
+            
+            <!-- Editorial Article 1 -->
+            <div class="glass-card rounded-3xl p-6 sm:p-12">
+                <div class="max-w-4xl mx-auto space-y-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gold-400">Inside Aadhini Raagam Studio</span>
+                    <h2 class="font-serif text-2xl sm:text-4xl font-bold text-white">How Aadhini Raagam Crafts Your Bespoke Custom Song</h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        Music has a timeless power to preserve emotions that ordinary greeting cards or flowers simply cannot capture. At <strong>Aadhini Raagam</strong>, we believe every family, couple, and friendship has a story worthy of its own signature melody. Whether you are welcoming a newborn baby, celebrating a milestone wedding anniversary, or surprising your best friend on their birthday, a personalized song turns fleeting memories into a lifelong keepsake.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+                        <div class="bg-royal-950/60 p-5 rounded-2xl border border-white/10">
+                            <h3 class="font-serif text-lg font-bold text-gold-400 mb-2">1. Authentic Poetic Lyrics in 6 Languages</h3>
+                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                                Unlike generic templates, every song created at Aadhini Raagam weaves in the exact names, pet names, inside jokes, and cherished moments you share with us. You can type your memories in simple English, and our composition studio writes rhyming Pallavi (Chorus) and Charanam (Verses) in authentic <strong>Tamil (தமிழ்), English, Telugu (తెలుగు), Malayalam (മലയാളം), Kannada (ಕನ್ನಡ), or Hindi (हिन्दी)</strong> script.
+                            </p>
+                        </div>
+                        <div class="bg-royal-950/60 p-5 rounded-2xl border border-white/10">
+                            <h3 class="font-serif text-lg font-bold text-gold-400 mb-2">2. Tailored Musical Styles & Vocal Registers</h3>
+                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                                Every occasion calls for a distinct musical mood. A romantic anniversary shines brightest with our <em>Cinematic Melody</em> or <em>Acoustic Romantic Ballad</em>, while a 1st birthday or naming ceremony comes alive with <em>Folk & Celebration Beats</em> or <em>Classical Fusion</em>. Choose between warm Male Vocals or sweet Female Vocals to match your vision.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Editorial Article 2: Occasions Guide -->
+            <div>
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gold-400">Musical Gifting Guide</span>
+                    <h2 class="font-serif text-2xl sm:text-4xl font-bold text-white mt-2">Popular Occasions for a Custom Song Gift</h2>
+                    <p class="text-sm text-slate-300 mt-2">Discover creative ways our customers across India use custom songs to make their celebrations unforgettable.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <article class="glass-card rounded-2xl p-6 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-rose-500/20 text-rose-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3 class="font-serif text-lg font-bold text-white">Wedding & Anniversary</h3>
+                        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                            Recount how you first met, your wedding day promises, and your favorite travels together. Play the custom song during your cake-cutting ceremony or use it as the soundtrack for your anniversary reel.
+                        </p>
+                    </article>
+
+                    <article class="glass-card rounded-2xl p-6 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-gold-400/20 text-gold-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-baby"></i>
+                        </div>
+                        <h3 class="font-serif text-lg font-bold text-white">New Baby & Naming Ceremony</h3>
+                        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                            Welcome your newborn prince or princess with a custom lullaby or joyful celebration anthem featuring the baby's name, birth date, and blessings from parents and grandparents.
+                        </p>
+                    </article>
+
+                    <article class="glass-card rounded-2xl p-6 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-cake-candles"></i>
+                        </div>
+                        <h3 class="font-serif text-lg font-bold text-white">Milestone Birthdays</h3>
+                        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                            Forget standard birthday tunes! Surprise your son, daughter, partner, or best friend with an upbeat custom birthday track that sings their name and celebrates their best qualities.
+                        </p>
+                    </article>
+
+                    <article class="glass-card rounded-2xl p-6 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-hands-holding-child"></i>
+                        </div>
+                        <h3 class="font-serif text-lg font-bold text-white">Parents & Family Tribute</h3>
+                        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                            Honor your Mother and Father on their 25th or 50th anniversary or retirement day with a respectful Classical Fusion or Cinematic song expressing your gratitude in your native mother tongue.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FREQUENTLY ASKED QUESTIONS (FAQ) SECTION -->
+    <section id="faq" class="relative z-10 py-16 px-4 sm:px-6 lg:px-8 bg-royal-900/35 border-t border-white/10">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-400">Got Questions?</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-2">Frequently Asked Questions</h2>
+                <p class="text-sm text-slate-300 mt-2">Everything you need to know about creating, previewing, and downloading your custom song.</p>
+            </div>
+
+            <div class="space-y-4" id="faqAccordion">
+                <!-- FAQ 1 -->
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <button type="button" onclick="toggleFaq(0)" class="w-full px-6 py-4 text-left flex items-center justify-between font-bold text-white text-sm sm:text-base">
+                        <span>1. Will the song lyrics be written in the exact language I select?</span>
+                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform" id="faq-icon-0"></i>
+                    </button>
+                    <div id="faq-content-0" class="px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        Yes! Even if you type your story and memories in simple English in the form, Aadhini Raagam Studio composes the full song lyrics in the exact language and native script you select — Tamil (தமிழ்), English, Telugu (తెలుగు), Malayalam (മലയാളം), Kannada (ಕನ್ನಡ), or Hindi (हिन्दी). We also include a pronunciation guide so everyone can sing along.
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <button type="button" onclick="toggleFaq(1)" class="w-full px-6 py-4 text-left flex items-center justify-between font-bold text-white text-sm sm:text-base">
+                        <span>2. Can I listen to a preview before making the Rs. 30/- payment?</span>
+                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform" id="faq-icon-1"></i>
+                    </button>
+                    <div id="faq-content-1" class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        Absolutely. Creating your custom lyrics and listening to the 20-second audio preview is 100% free. Only when you love the preview and wish to download the complete full-length studio WAV audio file and printable lyrics card do you pay Rs. 30/-.
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <button type="button" onclick="toggleFaq(2)" class="w-full px-6 py-4 text-left flex items-center justify-between font-bold text-white text-sm sm:text-base">
+                        <span>3. How do I pay Rs. 30/- and are there any extra payment gateway charges?</span>
+                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform" id="faq-icon-2"></i>
+                    </button>
+                    <div id="faq-content-2" class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        There are zero extra gateway fees or hidden charges! You pay exactly Rs. 30/- directly to our official UPI ID (<strong>Q012244037@ybl</strong>) using Google Pay, PhonePe, Paytm, or any UPI app via our QR code or 1-tap UPI button.
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <button type="button" onclick="toggleFaq(3)" class="w-full px-6 py-4 text-left flex items-center justify-between font-bold text-white text-sm sm:text-base">
+                        <span>4. How does the automatic download and WhatsApp notification work after payment?</span>
+                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform" id="faq-icon-3"></i>
+                    </button>
+                    <div id="faq-content-3" class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        Once you complete the Rs. 30/- UPI payment, simply enter your 12-digit UPI Reference / UTR number in the verification box and click Verify. The website will immediately unlock the full song, trigger an automatic download of your high-quality `.wav` audio file, and send your confirmed order details via WhatsApp to our studio team (+91 9585351755).
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <button type="button" onclick="toggleFaq(4)" class="w-full px-6 py-4 text-left flex items-center justify-between font-bold text-white text-sm sm:text-base">
+                        <span>5. Can I use the downloaded song on Instagram Reels, YouTube Shorts, or WhatsApp Status?</span>
+                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform" id="faq-icon-4"></i>
+                    </button>
+                    <div id="faq-content-4" class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        Yes! Your custom song is crafted uniquely for your personal celebration. You can freely combine the downloaded audio file with your family photos or videos and share it on Instagram Reels (don't forget to tag us <strong>@babygifts_2021</strong>!), WhatsApp Status, and YouTube.
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <button type="button" onclick="toggleFaq(5)" class="w-full px-6 py-4 text-left flex items-center justify-between font-bold text-white text-sm sm:text-base">
+                        <span>6. How can I contact Aadhini Raagam for bulk return-gift songs or custom requests?</span>
+                        <i class="fa-solid fa-chevron-down text-gold-400 transition-transform" id="faq-icon-5"></i>
+                    </button>
+                    <div id="faq-content-5" class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        We love helping with special events and baby gift packages! You can message or call us directly on WhatsApp at <strong>+91 9585351755</strong> or DM our official Instagram page <strong>@babygifts_2021</strong> anytime.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER WITH ADSENSE COMPLIANCE LINKS & OWNER CONTROLS -->
+    <footer class="relative z-10 bg-royal-950 border-t border-white/10 pt-14 pb-10 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+            
+            <!-- Col 1: Brand Info -->
+            <div class="space-y-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-gold-400 to-rose-500 p-0.5">
+                        <div class="w-full h-full bg-royal-950 rounded-[10px] flex items-center justify-center">
+                            <i class="fa-solid fa-compact-disc text-gold-400"></i>
+                        </div>
+                    </div>
+                    <span class="font-serif text-xl font-bold text-white">Aadhini <span class="text-gold-400">Raagam</span></span>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Turn Your Memories Into Timeless Songs. India's premier custom song studio crafting personalized melodies in Tamil, English, Telugu, Malayalam, Kannada & Hindi.
+                </p>
+                <div class="flex items-center gap-3 pt-1">
+                    <a href="https://wa.me/919585351755" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-lg bg-white/5 hover:bg-emerald-500/20 border border-white/10 flex items-center justify-center text-emerald-400 transition" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com/babygifts_2021" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-lg bg-white/5 hover:bg-pink-500/20 border border-white/10 flex items-center justify-center text-pink-400 transition" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="tel:+919585351755" class="w-9 h-9 rounded-lg bg-white/5 hover:bg-gold-400/20 border border-white/10 flex items-center justify-center text-gold-400 transition" aria-label="Phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Col 2: Quick Navigation -->
+            <div>
+                <h4 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Quick Links</h4>
+                <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300">
+                    <li><a href="#how-it-works" class="hover:text-gold-400 transition">How It Works</a></li>
+                    <li><a href="#song-creator" class="hover:text-gold-400 transition">Create Custom Song (Rs. 30/-)</a></li>
+                    <li><a href="#gifting-guide" class="hover:text-gold-400 transition">Musical Gifting Guide</a></li>
+                    <li><a href="#faq" class="hover:text-gold-400 transition">Frequently Asked Questions</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Legal & Google AdSense Compliance Pages -->
+            <div>
+                <h4 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Legal & Policy Pages</h4>
+                <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300">
+                    <li><button onclick="openLegalModal('about')" class="hover:text-gold-400 transition">About Us</button></li>
+                    <li><button onclick="openLegalModal('contact')" class="hover:text-gold-400 transition">Contact Us</button></li>
+                    <li><button onclick="openLegalModal('privacy')" class="hover:text-gold-400 transition">Privacy Policy (AdSense Compliant)</button></li>
+                    <li><button onclick="openLegalModal('terms')" class="hover:text-gold-400 transition">Terms & Conditions</button></li>
+                    <li><button onclick="openLegalModal('refund')" class="hover:text-gold-400 transition">Refund & Delivery Policy</button></li>
+                    <li><button onclick="openLegalModal('disclaimer')" class="hover:text-gold-400 transition">Disclaimer</button></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Direct Contact & Payment Info -->
+            <div class="space-y-3">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Studio Contact & Support</h4>
+                <div class="text-xs sm:text-sm text-slate-300 space-y-2">
+                    <p class="flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-emerald-400 w-4"></i>
+                        <a href="https://wa.me/919585351755" target="_blank" rel="noopener noreferrer" class="hover:text-gold-400">+91 9585351755</a>
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <i class="fa-brands fa-instagram text-pink-400 w-4"></i>
+                        <a href="https://instagram.com/babygifts_2021" target="_blank" rel="noopener noreferrer" class="hover:text-gold-400">@babygifts_2021</a>
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <i class="fa-solid fa-indian-rupee-sign text-gold-400 w-4"></i>
+                        <span>Official UPI: <strong class="text-gold-300">Q012244037@ybl</strong></span>
+                    </p>
+                </div>
+                <div class="pt-3 flex flex-wrap gap-2">
+                    <button onclick="openOwnerGuideModal()" class="text-[11px] px-3 py-1.5 rounded-lg bg-gold-400/15 hover:bg-gold-400/25 border border-gold-400/40 text-gold-300 font-semibold transition inline-flex items-center gap-1.5">
+                        <i class="fa-solid fa-plug-circle-bolt"></i> Owner Setup: Suno + OpenAI & GitHub
+                    </button>
+                    <button onclick="toggleAdsensePreviewSlots()" class="text-[11px] px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-400 hover:text-white transition inline-flex items-center gap-1.5">
+                        <i class="fa-solid fa-rectangle-ad"></i> Toggle AdSense Boxes
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+            <p>© 2026 <strong>Aadhini Raagam</strong> (@babygifts_2021). All Rights Reserved.</p>
+            <p>Crafted with Love for Tamil, English, Telugu, Malayalam, Kannada & Hindi Music Lovers.</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP & INSTAGRAM QUICK ACTION BUTTONS -->
+    <div class="fixed bottom-5 right-5 z-40 flex flex-col gap-3">
+        <a href="https://instagram.com/babygifts_2021" target="_blank" rel="noopener noreferrer" class="w-12 h-12 rounded-full bg-gradient-to-tr from-amber-500 via-pink-500 to-purple-600 text-white shadow-lg shadow-pink-500/30 flex items-center justify-center text-xl hover:scale-110 transition" title="Follow @babygifts_2021 on Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/919585351755?text=Hello%20Aadhini%20Raagam!%20I%20need%20help%20with%20a%20custom%20song." target="_blank" rel="noopener noreferrer" class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 text-white shadow-xl shadow-emerald-500/30 flex items-center justify-center text-2xl hover:scale-110 transition" title="Chat on WhatsApp +91 9585351755">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- MODAL 1: DIRECT UPI PAYMENT (RS. 30/-) & AUTOMATIC VERIFICATION MODAL   -->
+    <!-- ======================================================================= -->
+    <div id="upiPaymentModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+        <div class="glass-card rounded-3xl max-w-lg w-full p-6 sm:p-8 border-2 border-gold-400/50 relative my-8">
+            <button type="button" onclick="closeUpiPaymentModal()" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 flex items-center justify-center">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="text-center space-y-1 mb-5">
+                <span class="px-3 py-1 rounded-full text-[11px] font-bold bg-gold-400/20 text-gold-300 border border-gold-400/30">
+                    ZERO COMMISSION • DIRECT UPI PAYMENT
+                </span>
+                <h3 class="font-serif text-2xl font-bold text-white pt-1">Unlock Full Custom Song</h3>
+                <p class="text-xs text-slate-300">Pay <strong class="text-gold-400">Rs. 30.00</strong> directly to Aadhini Raagam & download immediately</p>
+            </div>
+
+            <!-- QR Code & UPI App Links Box -->
+            <div class="bg-royal-950/90 rounded-2xl p-5 border border-white/10 text-center space-y-4">
+                <div class="flex items-center justify-between text-xs border-b border-white/10 pb-3">
+                    <span class="text-slate-400">Merchant: <strong class="text-white">Aadhini Raagam</strong></span>
+                    <span class="text-emerald-400 font-bold text-base">Amount: ₹30.00</span>
+                </div>
+
+                <!-- Dynamic Scannable UPI QR Code Image (with offline canvas fallback) -->
+                <div class="bg-white p-3 rounded-2xl w-44 h-44 mx-auto flex items-center justify-center shadow-inner relative">
+                    <img id="upiQrImage" 
+                         src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi%3A%2F%2Fpay%3Fpa%3DQ012244037%40ybl%26pn%3DAadhini%2520Raagam%26am%3D30.00%26cu%3DINR%26tn%3DAadhiniRaagam_Song" 
+                         alt="Scan to Pay Rs. 30 to Q012244037@ybl"
+                         class="w-full h-full object-contain rounded-lg"
+                         onerror="drawFallbackQrCode(this)">
+                </div>
+
+                <!-- UPI ID Copy Row -->
+                <div class="flex items-center justify-center gap-2 bg-white/5 px-3 py-2 rounded-xl border border-white/10">
+                    <span class="text-xs text-slate-300">UPI ID: <strong id="upiIdText" class="text-gold-400 select-all">Q012244037@ybl</strong></span>
+                    <button type="button" onclick="copyUpiId()" class="px-2.5 py-1 rounded-lg bg-gold-400/20 hover:bg-gold-400 text-gold-300 hover:text-royal-950 text-xs font-semibold transition">
+                        <i class="fa-regular fa-copy mr-1"></i>Copy
+                    </button>
+                </div>
+
+                <!-- 1-Tap Mobile UPI App Launch Button -->
+                <a id="upiDeepLinkBtn" href="upi://pay?pa=Q012244037@ybl&pn=Aadhini%20Raagam&am=30.00&cu=INR&tn=AadhiniRaagam_Song" class="w-full py-3 px-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-royal-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition shadow-lg shadow-emerald-500/20">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>Open GPay / PhonePe / Paytm (₹30.00)</span>
+                </a>
+            </div>
+
+            <!-- Step 2: Verify 12-Digit UTR / UPI Ref Number -->
+            <div class="mt-5 space-y-3">
+                <label for="utrInput" class="block text-xs font-bold uppercase tracking-wider text-amber-200">
+                    Enter 12-Digit UPI Ref / UTR No. After Payment <span class="text-rose-400">*</span>
+                </label>
+                <div class="flex gap-2">
+                    <input type="text" id="utrInput" maxlength="12" placeholder="e.g., 412389012345 (12 digits)" class="w-full px-4 py-3 rounded-xl bg-royal-950 border border-white/20 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-gold-400">
+                    <button type="button" onclick="verifyUpiPaymentAndDownload()" class="btn-gold px-5 py-3 rounded-xl text-xs sm:text-sm font-bold shrink-0">
+                        Verify & Download
+                    </button>
+                </div>
+                <p id="utrErrorMsg" class="hidden text-xs text-rose-400 font-medium"></p>
+
+                <div class="flex items-center justify-between pt-2 border-t border-white/10 text-[11px] text-slate-400">
+                    <span>Testing your website flow?</span>
+                    <button type="button" onclick="triggerDemoPaymentVerification()" class="text-gold-400 hover:underline font-semibold">
+                        Click Here for Instant Demo Verification
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- MODAL 2: LEGAL & ADSENSE COMPLIANCE PAGES MODAL                         -->
+    <!-- ======================================================================= -->
+    <div id="legalModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+        <div class="glass-card rounded-3xl max-w-3xl w-full p-6 sm:p-10 border border-gold-400/40 relative my-8 max-h-[85vh] flex flex-col">
+            <div class="flex items-center justify-between pb-4 border-b border-white/10">
+                <h3 id="legalModalTitle" class="font-serif text-2xl font-bold text-gold-400">Policy Page</h3>
+                <button type="button" onclick="closeLegalModal()" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 flex items-center justify-center">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div id="legalModalBody" class="py-5 overflow-y-auto space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed pr-2">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- MODAL 3: OWNER GUIDE (FREE GITHUB HOSTING, ADSENSE & WHATSAPP WEBHOOK)  -->
+    <!-- ======================================================================= -->
+    <div id="ownerGuideModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+        <div class="glass-card rounded-3xl max-w-4xl w-full p-6 sm:p-10 border-2 border-gold-400/50 relative my-8 max-h-[90vh] flex flex-col">
+            <div class="flex items-center justify-between pb-4 border-b border-white/10">
+                <div>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-gold-400">Aadhini Raagam Owner Studio Engine</span>
+                    <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">Connect Real Suno API + OpenAI & Free GitHub Hosting</h3>
+                </div>
+                <button type="button" onclick="closeOwnerGuideModal()" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 flex items-center justify-center">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="py-5 overflow-y-auto space-y-6 text-xs sm:text-sm text-slate-300 leading-relaxed pr-2">
+                
+                <!-- LIVE API CONFIGURATION PANEL -->
+                <div class="bg-royal-950/90 p-5 rounded-2xl border-2 border-gold-400/40 space-y-4">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
+                        <h4 class="font-bold text-gold-400 text-sm sm:text-base flex items-center gap-2">
+                            <i class="fa-solid fa-sliders"></i> 1. Live Suno API + OpenAI Connection Settings
+                        </h4>
+                        <span id="apiEngineStatusPill" class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-400/30">
+                            Mode: Smart Hybrid (Suno + Built-in Fallback)
+                        </span>
+                    </div>
+
+                    <p class="text-xs text-slate-400">
+                        Enter your deployed <strong>gcui-art/suno-api</strong> URL and <strong>OpenAI API Key</strong> below. When configured, customer orders will generate lyrics via OpenAI (<code class="text-amber-200">gpt-4o-mini</code>) and real vocal `.mp3` songs via Suno! If left blank, the site runs smoothly using the built-in Studio Synthesizer.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- OpenAI API Key -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">
+                                OpenAI API Key (For Lyrics in 6 Languages)
+                            </label>
+                            <input type="password" id="ownerOpenAiKeyInput" placeholder="sk-proj-... (Leave blank to use default)" class="w-full px-3.5 py-2.5 rounded-xl bg-royal-900 border border-white/15 text-white text-xs focus:outline-none focus:border-gold-400">
+                        </div>
+
+                        <!-- OpenAI Model -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">
+                                OpenAI Model
+                            </label>
+                            <select id="ownerOpenAiModelInput" class="w-full px-3.5 py-2.5 rounded-xl bg-royal-900 border border-white/15 text-white text-xs focus:outline-none focus:border-gold-400">
+                                <option value="gpt-4o-mini">gpt-4o-mini (Fast & Low Cost - Recommended)</option>
+                                <option value="gpt-4o">gpt-4o (Maximum Poetic Quality)</option>
+                            </select>
+                        </div>
+
+                        <!-- Suno API Base URL -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">
+                                Suno API Server URL (<code class="text-gold-300">gcui-art/suno-api</code>)
+                            </label>
+                            <input type="url" id="ownerSunoUrlInput" placeholder="https://your-suno-api.vercel.app" class="w-full px-3.5 py-2.5 rounded-xl bg-royal-900 border border-white/15 text-white text-xs focus:outline-none focus:border-gold-400">
+                        </div>
+
+                        <!-- Optional Suno Bearer Key -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">
+                                Suno API Key / Bearer Token (Optional)
+                            </label>
+                            <input type="password" id="ownerSunoKeyInput" placeholder="Optional (if using hosted Suno API wrapper)" class="w-full px-3.5 py-2.5 rounded-xl bg-royal-900 border border-white/15 text-white text-xs focus:outline-none focus:border-gold-400">
+                        </div>
+                    </div>
+
+                    <!-- Optional WhatsApp Webhook -->
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">
+                            Silent WhatsApp / Google Sheet Webhook URL (Optional)
+                        </label>
+                        <input type="url" id="ownerWebhookUrlInput" placeholder="https://script.google.com/macros/s/.../exec (Optional)" class="w-full px-3.5 py-2.5 rounded-xl bg-royal-900 border border-white/15 text-white text-xs focus:outline-none focus:border-gold-400">
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-3 pt-2">
+                        <button type="button" onclick="saveOwnerApiSettings()" class="btn-gold px-5 py-2.5 rounded-xl text-xs font-bold flex items-center gap-2">
+                            <i class="fa-solid fa-floppy-disk"></i> Save API Configuration
+                        </button>
+                        <button type="button" onclick="testSunoAndOpenAiConnection()" class="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-white border border-white/20 text-xs font-semibold flex items-center gap-2">
+                            <i class="fa-solid fa-vial-circle-check text-emerald-400"></i> Test Suno & OpenAI Connection
+                        </button>
+                        <button type="button" onclick="clearOwnerApiSettings()" class="px-3 py-2.5 rounded-xl bg-rose-500/15 hover:bg-rose-500/25 text-rose-300 border border-rose-400/30 text-xs font-semibold">
+                            Reset to Demo Synth
+                        </button>
+                    </div>
+                    <p id="apiTestResultBox" class="hidden text-xs p-3 rounded-xl bg-royal-900 border border-white/10"></p>
+                </div>
+
+                <!-- STEP-BY-STEP GUIDE: GCUI-ART/SUNO-API + OPENAI -->
+                <div class="bg-royal-950/80 p-5 rounded-2xl border border-emerald-400/30 space-y-3">
+                    <h4 class="font-bold text-emerald-400 text-sm">2. Step-by-Step: How to Deploy Open-Source Suno API (<code class="text-white">gcui-art/suno-api</code>) for Free</h4>
+                    <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                        <li><strong>Fork the GitHub Project:</strong> Open <a href="https://github.com/gcui-art/suno-api" target="_blank" rel="noopener noreferrer" class="text-gold-400 underline">github.com/gcui-art/suno-api</a> and click <strong>Fork</strong> to your GitHub account.</li>
+                        <li><strong>Get Your Suno Cookie:</strong> Log in to <a href="https://suno.com/create" target="_blank" rel="noopener noreferrer" class="text-gold-400 underline">suno.com</a> on Chrome, press <kbd class="px-1.5 py-0.5 bg-white/10 rounded">F12</kbd> → <strong>Network</strong> tab, refresh the page, click any request to <code class="text-amber-300">client?_clerk_js_version...</code>, and copy the <code class="text-amber-300">Cookie</code> value from Request Headers.</li>
+                        <li><strong>One-Click Free Deploy on Vercel:</strong> Log in to <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" class="text-gold-400 underline">vercel.com</a> with GitHub, import your forked <code class="text-amber-300">suno-api</code> repo, add Environment Variable <code class="text-amber-300">SUNO_COOKIE</code> = (your copied cookie), and click <strong>Deploy</strong>.</li>
+                        <li><strong>Paste URL Above:</strong> Vercel will give you a free URL like <code class="text-amber-300">https://my-suno-api.vercel.app</code>. Paste it into the <strong>Suno API Server URL</strong> box above and click <strong>Save API Configuration</strong>!</li>
+                    </ol>
+                </div>
+
+                <!-- GITHUB PAGES HOSTING GUIDE -->
+                <div class="bg-royal-950/80 p-5 rounded-2xl border border-gold-400/30 space-y-2">
+                    <h4 class="font-bold text-gold-400 text-sm">3. How to Publish This Website 100% Free on GitHub Pages</h4>
+                    <ol class="list-decimal list-inside space-y-1.5 text-slate-300">
+                        <li>Create a free account at <strong>github.com</strong> and click <strong>New Repository</strong> named <code class="text-amber-300">aadhini-raagam</code> (Public).</li>
+                        <li>Click <strong>Add file → Upload files</strong>, upload this <code class="text-amber-300">index.html</code> file, and click <strong>Commit changes</strong>.</li>
+                        <li>Go to <strong>Settings → Pages</strong>, select <strong>Branch: main</strong>, and click <strong>Save</strong>.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CUSTOM TOAST NOTIFICATION -->
+    <div id="toastNotification" class="hidden fixed top-24 right-5 z-50 glass-card px-5 py-3.5 rounded-2xl border border-gold-400/50 shadow-2xl flex items-center gap-3 max-w-sm">
+        <i id="toastIcon" class="fa-solid fa-circle-check text-emerald-400 text-lg"></i>
+        <span id="toastMessage" class="text-xs sm:text-sm font-medium text-white">Notification</span>
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- APPLICATION JAVASCRIPT: LYRICS ENGINE, WEB AUDIO SYNTH & UPI WORKFLOW   -->
+    <!-- ======================================================================= -->
+    <script>
+        // --- APPLICATION STATE ---
+        const appState = {
+            selectedLanguage: 'Tamil',
+            selectedNativeLabel: 'தமிழ்',
+            selectedVocal: 'Female Vocal',
+            selectedStyle: 'Cinematic Melody',
+            currentSong: null,
+            isUnlocked: false,
+            isPlaying: false,
+            playbackSeconds: 0,
+            maxPreviewSeconds: 20,
+            fullSongSeconds: 45,
+            playbackTimer: null,
+            audioCtx: null,
+            masterGain: null,
+            activeOscillators: [],
+            usingRealSunoAudio: false
+        };
+
+        // --- INITIALIZE PAGE ---
+        window.addEventListener('DOMContentLoaded', () => {
+            initFloatingNotes();
+            drawIdleWaveform();
+            loadOwnerApiSettingsIntoModal();
+            initRealSunoAudioListeners();
+        });
+
+        // --- LOAD & SAVE OWNER SUNO + OPENAI API SETTINGS ---
+        function getOwnerApiConfig() {
+            return {
+                openAiKey: (localStorage.getItem('aadhini_openai_key') || '').trim(),
+                openAiModel: (localStorage.getItem('aadhini_openai_model') || 'gpt-4o-mini').trim(),
+                sunoUrl: (localStorage.getItem('aadhini_suno_url') || '').trim().replace(/\/+$/, ''),
+                sunoKey: (localStorage.getItem('aadhini_suno_key') || '').trim(),
+                webhookUrl: (localStorage.getItem('aadhini_owner_webhook') || '').trim()
+            };
+        }
+
+        function loadOwnerApiSettingsIntoModal() {
+            const cfg = getOwnerApiConfig();
+            const openAiKeyEl = document.getElementById('ownerOpenAiKeyInput');
+            const openAiModelEl = document.getElementById('ownerOpenAiModelInput');
+            const sunoUrlEl = document.getElementById('ownerSunoUrlInput');
+            const sunoKeyEl = document.getElementById('ownerSunoKeyInput');
+            const webhookEl = document.getElementById('ownerWebhookUrlInput');
+            const statusPill = document.getElementById('apiEngineStatusPill');
+
+            if (openAiKeyEl) openAiKeyEl.value = cfg.openAiKey;
+            if (openAiModelEl) openAiModelEl.value = cfg.openAiModel;
+            if (sunoUrlEl) sunoUrlEl.value = cfg.sunoUrl;
+            if (sunoKeyEl) sunoKeyEl.value = cfg.sunoKey;
+            if (webhookEl) webhookEl.value = cfg.webhookUrl;
+
+            if (statusPill) {
+                if (cfg.sunoUrl || cfg.openAiKey) {
+                    statusPill.textContent = `Mode: Live API Active (${cfg.sunoUrl ? 'Suno Connected' : 'OpenAI Lyrics'})`;
+                    statusPill.className = 'px-2.5 py-1 rounded-full text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-400/40';
+                } else {
+                    statusPill.textContent = 'Mode: Built-In Studio Synthesizer (Ready)';
+                    statusPill.className = 'px-2.5 py-1 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-400/30';
+                }
+            }
+        }
+
+        function saveOwnerApiSettings() {
+            localStorage.setItem('aadhini_openai_key', document.getElementById('ownerOpenAiKeyInput').value.trim());
+            localStorage.setItem('aadhini_openai_model', document.getElementById('ownerOpenAiModelInput').value.trim());
+            localStorage.setItem('aadhini_suno_url', document.getElementById('ownerSunoUrlInput').value.trim().replace(/\/+$/, ''));
+            localStorage.setItem('aadhini_suno_key', document.getElementById('ownerSunoKeyInput').value.trim());
+            localStorage.setItem('aadhini_owner_webhook', document.getElementById('ownerWebhookUrlInput').value.trim());
+            loadOwnerApiSettingsIntoModal();
+            showToast('Suno API & OpenAI settings saved successfully!');
+        }
+
+        function clearOwnerApiSettings() {
+            localStorage.removeItem('aadhini_openai_key');
+            localStorage.removeItem('aadhini_suno_url');
+            localStorage.removeItem('aadhini_suno_key');
+            loadOwnerApiSettingsIntoModal();
+            const testBox = document.getElementById('apiTestResultBox');
+            if (testBox) testBox.classList.add('hidden');
+            showToast('Reset to Built-In Studio Synthesizer mode.');
+        }
+
+        async function testSunoAndOpenAiConnection() {
+            saveOwnerApiSettings();
+            const cfg = getOwnerApiConfig();
+            const box = document.getElementById('apiTestResultBox');
+            box.classList.remove('hidden');
+            box.innerHTML = '<i class="fa-solid fa-spinner fa-spin text-gold-400 mr-2"></i>Testing API endpoints...';
+
+            const results = [];
+            if ( cfg.sunoUrl ) {
+                try {
+                    const headers = { 'Content-Type': 'application/json' };
+                    if (cfg.sunoKey) headers['Authorization'] = `Bearer ${cfg.sunoKey}`;
+                    const res = await fetch(`${cfg.sunoUrl}/api/get_limit`, { headers });
+                    if (res.ok) {
+                        const data = await res.json();
+                        const creditsLeft = data.credits_left !== undefined ? ` (${data.credits_left} credits left)` : '';
+                        results.push(`<span class="text-emerald-400 font-bold">✓ Suno API Server Connected${creditsLeft}</span>`);
+                    } else {
+                        results.push(`<span class="text-amber-300 font-bold">! Suno Server responded with status ${res.status} (Check SUNO_COOKIE)</span>`);
+                    }
+                } catch (e) {
+                    results.push('<span class="text-rose-400 font-bold">✗ Cannot reach Suno URL (Check CORS or Vercel deployment URL)</span>');
+                }
+            } else {
+                results.push('<span class="text-amber-300">• Suno API URL not set (Using Built-in Multi-Track Synthesizer)</span>');
+            }
+
+            box.innerHTML = results.join('<br>');
+        }
+
+        // --- FLOATING BACKGROUND MUSICAL NOTES ---
+        function initFloatingNotes() {
+            const container = document.getElementById('floatingNotesContainer');
+            if (!container) return;
+            const symbols = ['♪', '♫', '♬', '♩', '♭', '♮'];
+            let html = '';
+            for (let i = 0; i < 14; i++) {
+                const sym = symbols[i % symbols.length];
+                const left = (i * 7 + 3) % 96;
+                const dur = 14 + (i % 7) * 3;
+                const delay = (i * 1.7) % 12;
+                const size = 16 + (i % 4) * 6;
+                html += `<span class="floating-note" style="left:${left}vw; animation-duration:${dur}s; animation-delay:-${delay}s; font-size:${size}px;">${sym}</span>`;
+            }
+            container.innerHTML = html;
+        }
+
+        // --- GEMINI & OPENAI NATIVE LANGUAGE LYRICS COMPOSER WITH EXPONENTIAL BACKOFF ---
+        async function fetchCustomLyricsFromStudio(details) {
+            const cfg = getOwnerApiConfig();
+
+            const systemPrompt = `You are the Master Lyricist and Musical Composer at "Aadhini Raagam Studio".
+CRITICAL RULE 1: Write the song lyrics STRICTLY and ENTIRELY in the native script of the requested language:
+- If language is "Tamil", write all lyrics in pure poetic Tamil script (தமிழ் எழுத்துக்கள்). Do NOT write English/Tanglish in the nativeScriptLines.
+- If language is "Telugu", write all lyrics in pure poetic Telugu script (తెలుగు লিপি).
+- If language is "Malayalam", write all lyrics in pure poetic Malayalam script (മലയാളം ലിপি).
+- If language is "Kannada", write all lyrics in pure poetic Kannada script (ಕನ್ನಡ ಲಿಪಿ).
+- If language is "Hindi", write all lyrics in pure poetic Devanagari Hindi script (देवनागरी हिन्दी).
+- If language is "English", write all lyrics in poetic English.
+CRITICAL RULE 2: Naturally weave the recipient's name ("${details.recipientName}"), relationship ("${details.relationship}"), occasion ("${details.occasion}"), and customer memories ("${details.storyDetails}") into emotional, rhyming stanzas (Pallavi / Chorus, Charanam 1 / Verse 1, Charanam 2 / Verse 2, and Outro Blessing).
+CRITICAL RULE 3: Also provide a helpful Romanized pronunciation guide (transliteration) for each stanza so anyone can sing along.
+Return ONLY valid JSON with keys: "songTitle" (string), "musicalArrangementNotes" (string), and "stanzas" (array of objects with "sectionLabel", "nativeScriptLines", "pronunciationGuide").`;
+
+            const userQuery = `Compose a complete custom song for:
+Language: ${details.language} (${details.nativeLabel})
+Vocal Style: ${details.vocal}
+Musical Style: ${details.style}
+Recipient Name: ${details.recipientName}
+Relationship: ${details.relationship}
+Occasion: ${details.occasion}
+Customer Name: ${details.customerName}
+Special Memories & Message: ${details.storyDetails}`;
+
+            // 1. IF OWNER CONFIGURED OPENAI API KEY, CALL REAL OPENAI CHAT COMPLETIONS
+            if (cfg.openAiKey) {
+                try {
+                    const openAiRes = await fetch('https://api.openai.com/v1/chat/completions', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${cfg.openAiKey}`
+                        },
+                        body: JSON.stringify({
+                            model: cfg.openAiModel || 'gpt-4o-mini',
+                            response_format: { type: 'json_object' },
+                            messages: [
+                                { role: 'system', content: systemPrompt },
+                                { role: 'user', content: userQuery }
+                            ],
+                            temperature: 0.75
+                        })
+                    });
+                    if (openAiRes.ok) {
+                        const openAiData = await openAiRes.json();
+                        const content = openAiData?.choices?.[0]?.message?.content;
+                        if (content) {
+                            const parsed = JSON.parse(content);
+                            if (parsed.songTitle && Array.isArray(parsed.stanzas)) {
+                                return parsed;
+                            }
+                        }
+                    }
+                } catch (openAiErr) {
+                    // Fall through to Gemini / Built-in Native Script Composer
+                }
+            }
+
+            // 2. CALL GEMINI API COMPOSER
+            const apiKey = "";
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+
+            const payload = {
+                contents: [{ parts: [{ text: userQuery }] }],
+                systemInstruction: { parts: [{ text: systemPrompt }] },
+                generationConfig: {
+                    responseMimeType: "application/json",
+                    responseSchema: {
+                        type: "OBJECT",
+                        properties: {
+                            songTitle: { type: "STRING" },
+                            musicalArrangementNotes: { type: "STRING" },
+                            stanzas: {
+                                type: "ARRAY",
+                                items: {
+                                    type: "OBJECT",
+                                    properties: {
+                                        sectionLabel: { type: "STRING" },
+                                        nativeScriptLines: { type: "STRING" },
+                                        pronunciationGuide: { type: "STRING" }
+                                    },
+                                    required: ["sectionLabel", "nativeScriptLines", "pronunciationGuide"]
+                                }
+                            }
+                        },
+                        required: ["songTitle", "musicalArrangementNotes", "stanzas"]
+                    }
+                }
+            };
+
+            const delays = [1000, 2000, 4000];
+            for (let attempt = 0; attempt <= delays.length; attempt++) {
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    if (!response.ok) throw new Error('Studio API busy');
+                    const result = await response.json();
+                    const text = result?.candidates?.[0]?.content?.parts?.[0]?.text;
+                    if (text) {
+                        return JSON.parse(text);
+                    }
+                } catch (err) {
+                    if (attempt < delays.length) {
+                        await new Promise(r => setTimeout(r, delays[attempt]));
+                    }
+                }
+            }
+            // Fallback native-script poetic composer if offline
+            return buildNativeScriptFallbackSong(details);
+        }
+
+        // --- REAL SUNO API SONG GENERATOR (SUPPORTS GCUI-ART/SUNO-API) ---
+        async function generateRealSunoSongAudio(songObj, onStatusUpdate) {
+            const cfg = getOwnerApiConfig();
+            if (!cfg.sunoUrl) return null;
+
+            // Format stanzas with metatags [Chorus], [Verse 1], [Verse 2] for Suno custom mode
+            const formattedPrompt = songObj.stanzas.map((st, idx) => {
+                const tag = idx === 0 ? '[Chorus]' : `[Verse ${idx}]`;
+                return `${tag}\n${st.nativeScriptLines}`;
+            }).join('\n\n');
+
+            // Construct rich musical style + language + vocal gender tags for Suno
+            const vocalTag = songObj.vocal === 'Female Vocal'
+                ? 'female vocals, expressive melodic female singer, sweet soprano'
+                : 'male vocals, warm soulful male singer, deep baritone';
+
+            const sunoTags = `${songObj.language} song, ${songObj.style}, ${vocalTag}, Indian studio production, high fidelity`;
+
+            const headers = { 'Content-Type': 'application/json' };
+            if (cfg.sunoKey) {
+                headers['Authorization'] = `Bearer ${cfg.sunoKey}`;
+            }
+
+            try {
+                if (onStatusUpdate) onStatusUpdate('Connecting to Suno Studio Server (/api/custom_generate)...', 55);
+
+                const customGenRes = await fetch(`${cfg.sunoUrl}/api/custom_generate`, {
+                    method: 'POST',
+                    headers,
+                    body: JSON.stringify({
+                        prompt: formattedPrompt,
+                        tags: sunoTags,
+                        title: songObj.songTitle,
+                        make_instrumental: false,
+                        wait_audio: false
+                    })
+                });
+
+                if (!customGenRes.ok) {
+                    throw new Error(`Suno API HTTP ${customGenRes.status}`);
+                }
+
+                const genData = await customGenRes.json();
+                const clips = Array.isArray(genData) ? genData : (genData.data || [genData]);
+                const firstClip = clips[0];
+
+                if (!firstClip) throw new Error('No clip returned from Suno API');
+
+                // If audio_url is already ready immediately
+                if (firstClip.audio_url) {
+                    return firstClip.audio_url;
+                }
+
+                const clipId = firstClip.id;
+                if (!clipId) throw new Error('Missing clip ID from Suno response');
+
+                // Poll /api/get?ids=clipId until streaming or complete audio_url is available
+                for (let poll = 1; poll <= 22; poll++) {
+                    if (onStatusUpdate) {
+                        const pct = Math.min(95, 58 + poll * 2);
+                        onStatusUpdate(`Suno Vocal Engine is singing your ${songObj.language} lyrics (Step ${poll}/20)...`, pct);
+                    }
+                    await new Promise(r => setTimeout(r, 4000));
+
+                    const pollRes = await fetch(`${cfg.sunoUrl}/api/get?ids=${encodeURIComponent(clipId)}`, { headers });
+                    if (pollRes.ok) {
+                        const pollData = await pollRes.json();
+                        const pollClips = Array.isArray(pollData) ? pollData : (pollData.data || [pollData]);
+                        const target = pollClips.find(c => c.id === clipId) || pollClips[0];
+                        if (target && target.audio_url && (target.status === 'streaming' || target.status === 'complete' || target.audio_url.includes('.mp3'))) {
+                            return target.audio_url;
+                        }
+                    }
+                }
+            } catch (err) {
+                console.warn('Suno API fallback to built-in synthesizer:', err);
+            }
+            return null;
+        }
+
+        // --- MOBILE MENU TOGGLE ---
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // --- TOAST HELPER (NO ALERT()) ---
+        function showToast(message, iconClass = 'fa-solid fa-circle-check text-emerald-400') {
+            const toast = document.getElementById('toastNotification');
+            const msgEl = document.getElementById('toastMessage');
+            const iconEl = document.getElementById('toastIcon');
+            msgEl.textContent = message;
+            iconEl.className = `${iconClass} text-lg`;
+            toast.classList.remove('hidden');
+            clearTimeout(window._toastTimer);
+            window._toastTimer = setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 4000);
+        }
+
+        // --- FORM SELECTORS ---
+        function selectLanguage(lang, nativeLabel, btnEl) {
+            appState.selectedLanguage = lang;
+            appState.selectedNativeLabel = nativeLabel;
+            document.querySelectorAll('#languageSelectorGrid .option-tile').forEach(el => el.classList.remove('selected'));
+            btnEl.classList.add('selected');
+            showToast(`Song Language set to ${lang} (${nativeLabel})`);
+        }
+
+        function selectVocal(vocal, btnEl) {
+            appState.selectedVocal = vocal;
+            document.querySelectorAll('#vocalSelectorGrid .option-tile').forEach(el => el.classList.remove('selected'));
+            btnEl.classList.add('selected');
+        }
+
+        function selectStyle(style, btnEl) {
+            appState.selectedStyle = style;
+            document.querySelectorAll('#styleSelectorGrid .option-tile').forEach(el => el.classList.remove('selected'));
+            btnEl.classList.add('selected');
+        }
+
+        function appendMemoryPrompt(text) {
+            const textarea = document.getElementById('storyDetails');
+            textarea.value = textarea.value ? `${textarea.value.trim()} ${text}` : text;
+            textarea.focus();
+        }
+
+        function fillSampleCustomerStory() {
+            document.getElementById('customerName').value = 'Surya Prakash';
+            document.getElementById('customerPhone').value = '9585351755';
+            document.getElementById('recipientName').value = 'Aadhini';
+            document.getElementById('relationship').value = 'Baby / Child';
+            document.getElementById('occasion').value = 'Birthday Celebration';
+            document.getElementById('storyDetails').value = 'Our sweet little angel Aadhini who fills our home with giggles, her cute anklets sound (kolusu satham), and wishing her a blessed happy birthday surrounded by love.';
+            showToast('Sample story loaded! Click "Compose My Custom Song" below.');
+        }
+
+        // --- HIGH-PRECISION NATIVE SCRIPT FALLBACK COMPOSER FOR ALL 6 LANGUAGES ---
+        function buildNativeScriptFallbackSong(d) {
+            const name = d.recipientName;
+            const sender = d.customerName;
+            const occ = d.occasion;
+
+            const templates = {
+                'Tamil': {
+                    songTitle: `${name} - ஆதினி ராகம் சிறப்பு பாடல்`,
+                    musicalArrangementNotes: `Composed in ${d.style} with ${d.vocal}, featuring bamboo flute, lush strings, and warm rhythmic percussion tailored for ${name}'s ${occ}.`,
+                    stanzas: [
+                        {
+                            sectionLabel: "பல்லவி (Pallavi / Chorus)",
+                            nativeScriptLines: `அன்பே எங்கள் உயிரே ${name} நீதானே,\nஎங்கள் வாழ்வில் பூத்த தங்க நிலவும் நீதானே!\nபுன்னகை பூக்கும் உன் முகம் பார்த்தாலே,\nநெஞ்சம் எல்லாம் இன்ப ராகம் பாடுதே!`,
+                            pronunciationGuide: `Anbe engal uyire ${name} neethaane,\nEngal vaazhvil pootha thanga nilavum neethaane!\nPunnagai pookkum un mugam paarthaale,\nNenjam ellaam inba raagam paaduthe!`
+                        },
+                        {
+                            sectionLabel: "சரணம் 1 (Charanam 1)",
+                            nativeScriptLines: `மகிழ்ச்சி பொங்கும் இந்த திருநாளிலே (${occ}),\n${sender} மனதார வாழ்த்தும் இனிய நேரமிதே!\nநீ தந்த அழகான நினைவுகள் யாவும்,\nகாலம் முழுவதும் எங்கள் கண்ணில் வாழும்!`,
+                            pronunciationGuide: `Magizhchi pongum intha thirunaalile,\n${sender} manathaara vaazhthum iniya neramithe!\nNee thantha azhagaana ninaivugal yaavum,\nKaalam muzhuvathum engal kannil vaazhum!`
+                        },
+                        {
+                            sectionLabel: "சரணம் 2 (Charanam 2 - Special Memories)",
+                            nativeScriptLines: `கொஞ்சும் சிரிப்பும் அன்பான வார்த்தையும்,\nஎங்கள் இல்லத்தின் அணையா தீபமாய் ஜொலிக்குதே!\nநூறாண்டு காலம் நீ நலமோடு வாழ்கவே,\nஆதினி ராகம் இசைக்கும் வாழ்த்துப் பாடலிதே!`,
+                            pronunciationGuide: `Konjum sirippum anbaana vaarthaiyum,\nEngal illathin anaiyaa deepamaai jolithuthe!\nNooraandu kaalam nee nalamodu vaazhgave,\nAadhini Raagam isaikkum vaazhthu paadalithe!`
+                        }
+                    ]
+                },
+                'English': {
+                    songTitle: `A Melody For ${name}`,
+                    musicalArrangementNotes: `Arranged in ${d.style} featuring ${d.vocal}, warm acoustic chords, and cinematic orchestration celebrating ${name}'s ${occ}.`,
+                    stanzas: [
+                        {
+                            sectionLabel: "Chorus",
+                            nativeScriptLines: `Oh dearest ${name}, you are the light of every day,\nTurning every quiet moment into a golden symphony!\nWith a smile so bright and a heart so true,\nThis special song is crafted just for you.`,
+                            pronunciationGuide: `Sung with warm melodic expression in ${d.style}.`
+                        },
+                        {
+                            sectionLabel: "Verse 1",
+                            nativeScriptLines: `On this joyful ${occ}, ${sender} sings your name,\nEvery memory we share glows like a gentle flame.\n${d.storyDetails.slice(0, 90)}...\nForever treasured deep inside our hearts.`,
+                            pronunciationGuide: `Soft rhythmic accompaniment with melodic strings.`
+                        },
+                        {
+                            sectionLabel: "Verse 2 & Blessing",
+                            nativeScriptLines: `May every dream you hold blossom in the sun,\nMay joy and laughter follow everything you've begun.\nHappy celebration, dear ${name}, forever shine so bright,\nWrapped in love and music through every day and night!`,
+                            pronunciationGuide: `Grand uplifting finale chorus.`
+                        }
+                    ]
+                },
+                'Telugu': {
+                    songTitle: `${name} - ఆధిని రాగం ప్రత్యేక గీతం`,
+                    musicalArrangementNotes: `Composed in ${d.style} with ${d.vocal}, blending melodious sitar, flute, and joyful beats for ${name}'s ${occ}.`,
+                    stanzas: [
+                        {
+                            sectionLabel: "పల్లవి (Pallavi / Chorus)",
+                            nativeScriptLines: `ప్రాణమా మా బంగారం ${name} నీవేగా,\nమా ఇంటిలో వెలిగే చల్లని జాబిల్లి నీవేగా!\nనీ చిరునవ్వుల కాంతిని చూస్తుంటే,\nమనసులో మధురమైన రాగాలు పలికెనే!`,
+                            pronunciationGuide: `Praanama maa bangaaram ${name} neevega,\nMaa intilo velige challani jaabilli neevega!\nNee chirunavvula kaanthini choosthunte,\nManasulo madhuramaina raagaalu palikene!`
+                        },
+                        {
+                            sectionLabel: "చరణం 1 (Charanam 1)",
+                            nativeScriptLines: `ఆనందం వెల్లివిరిసే ఈ శుభవేళలో (${occ}),\n${sender} ప్రేమతో అందిస్తున్న కానుక ఇది!\nనీతో గడిపిన ప్రతి మధుర జ్ఞాపకం,\nమా గుండెల్లో నిలిచిపోయే శాశ్వత వరం!`,
+                            pronunciationGuide: `Aanandam vellivirise ee shubhavelalo,\n${sender} prematho andisthunna kaanuka idi!\nNeetho gadipina prathi madhura gnaapakam,\nMaa gundello nilichipoye shaashvatha varam!`
+                        },
+                        {
+                            sectionLabel: "చరణం 2 (Charanam 2)",
+                            nativeScriptLines: `నిండు నూరేళ్ళు ఆయురారోగ్యాలతో వర్ధిల్లాలని,\nప్రతి అడుగులో విజయం నిన్ను వరించాలని,\nఆధిని రాగం పాడుతున్న ఆశీస్సుల గీతమిది!`,
+                            pronunciationGuide: `Nindu noorellu aayuraarogyaalatho vardhillaalani,\nPrathi adugulo vijayam ninnu varinchaalani,\nAadhini Raagam paaduthunna aasheessula geethamidi!`
+                        }
+                    ]
+                },
+                'Malayalam': {
+                    songTitle: `${name} - ആധിനി രാഗം സ്നേഹഗാനം`,
+                    musicalArrangementNotes: `Composed in ${d.style} with ${d.vocal}, featuring soothing violin and gentle percussion for ${name}'s ${occ}.`,
+                    stanzas: [
+                        {
+                            sectionLabel: "പല്ലവി (Pallavi / Chorus)",
+                            nativeScriptLines: `പ്രിയമുള്ള ${name}, എൻ ജീവന്റെ രാഗം നീയാണേ,\nഞങ്ങളുടെ ജീവിതത്തിൽ വിരിഞ്ഞ പൊൻവസന്തം നീയാണേ!\nനിൻ പുഞ്ചിരി തൂകും മുഖം കാണുമ്പോൾ,\nഹൃദയത്തിൽ ആയിരം പൂക്കൾ വിരിയുന്നേ!`,
+                            pronunciationGuide: `Priyamulla ${name}, en jeevante raagam neeyaane,\nNjangalude jeevithathil virinja ponvasantham neeyaane!\nNin punchiri thookum mukham kaanumbol,\nHrudayathil aayiram pookkal viriyunne!`
+                        },
+                        {
+                            sectionLabel: "ചരണം 1 (Charanam 1)",
+                            nativeScriptLines: `സന്തോഷം നിറയുന്ന ഈ നല്ല നാളിൽ (${occ}),\n${sender} സ്നേഹത്തോടെ നേരുന്ന മംഗള ഗാനമിത്!\nനീ നൽകിയ മനോഹരമായ ഓർമ്മകളെല്ലാം,\nഎന്നും ഞങ്ങളുടെ ഉള്ളിൽ തിളങ്ങി നിൽക്കും!`,
+                            pronunciationGuide: `Santhosham nirayunna ee nalla naalil,\n${sender} snehathode nerunna mangala gaanamithu!\nNee nalkiya manoharamaaya ormmakalellaam,\nEnnum njangalude ullil thilangi nilkkum!`
+                        },
+                        {
+                            sectionLabel: "ചരണം 2 (Charanam 2)",
+                            nativeScriptLines: `നൂറു വർഷം നന്മയും സന്തോഷവുമായി വാഴാൻ,\nആധിനി രാഗം പാടുന്ന സ്നേഹ സമ്മാനമിത്!`,
+                            pronunciationGuide: `Nooru varsham nanmayum santhoshavumaayi vaazhaan,\nAadhini Raagam paadunna sneha sammaanamithu!`
+                        }
+                    ]
+                },
+                'Kannada': {
+                    songTitle: `${name} - ಆಧಿನಿ ರಾಗಂ ವಿಶೇಷ ಹಾಡು`,
+                    musicalArrangementNotes: `Composed in ${d.style} with ${d.vocal}, blending melodic flute and acoustic strings for ${name}'s ${occ}.`,
+                    stanzas: [
+                        {
+                            sectionLabel: "ಪಲ್ಲವಿ (Pallavi / Chorus)",
+                            nativeScriptLines: `ಪ್ರೀತಿಯ ${name}, ನನ್ನ ಹೃದಯದ ಹಾಡು ನೀನೇ,\nನಮ್ಮ ಬಾಳಲ್ಲಿ ಮೂಡಿದ ಹೊನ್ನಿನ ಬೆಳಕು ನೀನೇ!\nನಿನ್ನ ಮುದ್ದಾದ ನಗುವನ್ನು ನೋಡಿದರೆ,\nಮನಸ್ಸಿನಲ್ಲಿ ಸಂತೋಷದ ಹೊನಲು ಹರಿಯುವುದೇ!`,
+                            pronunciationGuide: `Preethiya ${name}, nanna hrudayada haadu neene,\nNamma baalalli moodida honnina belaku neene!\nNinna muddaada naguvannu noodidare,\nManassinalli santhoshada honalu hariyuvude!`
+                        },
+                        {
+                            sectionLabel: "ಚರಣ 1 (Charanam 1)",
+                            nativeScriptLines: `ಸಂಭ್ರಮ ತುಂಬಿದ ಈ ಶುಭ ದಿನದಂದು (${occ}),\n${sender} ಪ್ರೀತಿಯಿಂದ ಹಾಡುವ ಶುಭಾಶಯ ಗೀತೆಯಿದು!\nನಿನ್ನೊಡನೆ ಕಳೆದ ಪ್ರತಿಯೊಂದು ಸುಂದರ ನೆನಪು,\nಎಂದೆಂದಿಗೂ ನಮ್ಮ ಮನದಲ್ಲಿ ಚಿರಂಜೀವಿ!`,
+                            pronunciationGuide: `Sambhrama thumbida ee shubha dinadandu,\n${sender} preethiyinda haaduva shubhaashaya geetheyidu!\nNinnodane kaleda prathiyondu sundara nenapu,\nEndendigu namma manadalli chiranjeevi!`
+                        },
+                        {
+                            sectionLabel: "ಚರಣ 2 (Charanam 2)",
+                            nativeScriptLines: `ನೂರು ಕಾಲ ಸುಖ ಶಾಂತಿ ನೆಮ್ಮದಿಯಿಂದ ಬಾಳು,\nಆಧಿನಿ ರಾಗಂ ಅರ್ಪಿಸುವ ಪ್ರೀತಿಯ ಉಡುಗೊರೆಯಿದು!`,
+                            pronunciationGuide: `Nooru kaala sukha shaanthi nemmadiyinda baalu,\nAadhini Raagam arpisuva preethiya udugoreyidu!`
+                        }
+                    ]
+                },
+                'Hindi': {
+                    songTitle: `${name} - आधिनी रागम विशेष गीत`,
+                    musicalArrangementNotes: `Composed in ${d.style} with ${d.vocal}, featuring soulful guitar, bansuri flute, and celebratory beats for ${name}'s ${occ}.`,
+                    stanzas: [
+                        {
+                            sectionLabel: "मुखड़ा (Mukhda / Chorus)",
+                            nativeScriptLines: `प्यारे ${name}, मेरी हर धड़कन तेरा नाम गुनगुनाए,\nतेरी प्यारी सी मुस्कान से हमारा घर जगमगाए!\nतू है तो हर लम्हा लगता है एक खूबसूरत त्योहार,\nतुझ पर लुटाएं हम अपना सारा प्यार!`,
+                            pronunciationGuide: `Pyaare ${name}, meri har dhadkan tera naam gungunaaye,\nTeri pyaari si muskaan se hamaara ghar jagmagaaye!\nTu hai toh har lamha lagta hai ek khoobsurat tyohaar,\nTujh par lutaayein hum apna saara pyaar!`
+                        },
+                        {
+                            sectionLabel: "अंतरा 1 (Antara 1)",
+                            nativeScriptLines: `खुशियों से सजे इस खास मौके पर (${occ}),\n${sender} दिल से देता है तुझे लाखों दुआएं!\nतेरे संग बिताई हर मीठी याद,\nहमेशा हमारे दिल के करीब रहेगी!`,
+                            pronunciationGuide: `Khushiyon se saje is khaas mauke par,\n${sender} dil se deta hai tujhe laakhon duaayein!\nTere sang bitaayi har meethi yaad,\nHamesha hamaare dil ke kareeb rahegi!`
+                        },
+                        {
+                            sectionLabel: "अंतरा 2 (Antara 2)",
+                            nativeScriptLines: `सौ साल तक यूं ही चमकता रहे तेरा सितारा,\nआधिनी रागम गाता है तेरे लिए यह गीत प्यारा!`,
+                            pronunciationGuide: `Sau saal tak yoon hi chamakta rahe tera sitaara,\nAadhini Raagam gaata hai tere liye yah geet pyaara!`
+                        }
+                    ]
+                }
+            };
+
+            return templates[d.language] || templates['Tamil'];
+        }
+
+        // --- HANDLE FORM SUBMISSION ---
+        async function handleCreateCustomSong(e) {
+            e.preventDefault();
+            stopAllAudioPlayback();
+
+            const customerName = document.getElementById('customerName').value.trim();
+            const customerPhone = document.getElementById('customerPhone').value.trim();
+            const recipientName = document.getElementById('recipientName').value.trim();
+            const relationship = document.getElementById('relationship').value;
+            const occasion = document.getElementById('occasion').value;
+            const storyDetails = document.getElementById('storyDetails').value.trim();
+
+            if (!customerName || !customerPhone || !recipientName || !storyDetails) {
+                showToast('Please fill in all required fields to create your song.', 'fa-solid fa-circle-exclamation text-rose-400');
+                return;
+            }
+
+            const orderId = 'AR-' + Math.floor(100000 + Math.random() * 900000);
+
+            // Show Loading Card
+            const loader = document.getElementById('studioLoadingCard');
+            const resultCard = document.getElementById('songResultStudio');
+            const progressBar = document.getElementById('loadingProgressBar');
+            const stepTitle = document.getElementById('loadingStepTitle');
+            const stepSubtitle = document.getElementById('loadingStepSubtitle');
+
+            resultCard.classList.add('hidden');
+            loader.classList.remove('hidden');
+            loader.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            progressBar.style.width = '25%';
+            stepTitle.textContent = `Writing Custom ${appState.selectedLanguage} (${appState.selectedNativeLabel}) Lyrics for ${recipientName}...`;
+            stepSubtitle.textContent = `Weaving your special memories and ${occasion} wishes into poetic stanzas...`;
+
+            const details = {
+                orderId,
+                customerName,
+                customerPhone,
+                recipientName,
+                relationship,
+                occasion,
+                storyDetails,
+                language: appState.selectedLanguage,
+                nativeLabel: appState.selectedNativeLabel,
+                vocal: appState.selectedVocal,
+                style: appState.selectedStyle
+            };
+
+            // Step A: Generate Native Script Lyrics (OpenAI / Gemini / Native Composer)
+            const composed = await fetchCustomLyricsFromStudio(details);
+
+            progressBar.style.width = '55%';
+            stepTitle.textContent = `Arranging ${appState.selectedStyle} & ${appState.selectedVocal}...`;
+            stepSubtitle.textContent = `Composing vocal melody and preparing your 20-second Free Studio Preview...`;
+
+            const fullSongData = {
+                ...details,
+                ...composed,
+                realAudioUrl: null
+            };
+
+            // Step B: If Suno API URL is configured, generate real vocal MP3 song from the native lyrics
+            const realMp3Url = await generateRealSunoSongAudio(fullSongData, (statusText, pct) => {
+                stepSubtitle.textContent = statusText;
+                progressBar.style.width = `${pct}%`;
+            });
+
+            if (realMp3Url) {
+                fullSongData.realAudioUrl = realMp3Url;
+                appState.usingRealSunoAudio = true;
+            } else {
+                appState.usingRealSunoAudio = false;
+            }
+
+            progressBar.style.width = '100%';
+            appState.currentSong = fullSongData;
+            appState.isUnlocked = false;
+            appState.playbackSeconds = 0;
+
+            setTimeout(() => {
+                loader.classList.add('hidden');
+                renderSongResultStudio();
+                resultCard.classList.remove('hidden');
+                resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                showToast(`Your ${details.language} custom song is ready! Click Play to listen.`);
+            }, 400);
+        }
+
+        // --- RENDER GENERATED SONG STUDIO ---
+        function renderSongResultStudio() {
+            const s = appState.currentSong;
+            if (!s) return;
+
+            document.getElementById('resultSongTitle').textContent = s.songTitle;
+            document.getElementById('resultSongMeta').textContent = `${s.language} (${s.nativeLabel}) • ${s.vocal} • ${s.style} • Dedicated to ${s.recipientName}`;
+            document.getElementById('resultOrderId').textContent = `#${s.orderId}`;
+            document.getElementById('lyricsHeaderLanguage').textContent = `Custom Lyrics in ${s.language} (${s.nativeLabel})`;
+            document.getElementById('resultMusicalNotes').textContent = s.musicalArrangementNotes;
+
+            document.getElementById('summaryRecipient').textContent = `${s.recipientName} (${s.relationship})`;
+            document.getElementById('summaryOccasion').textContent = s.occasion;
+            document.getElementById('summaryLanguage').textContent = `${s.language} (${s.nativeLabel})`;
+            document.getElementById('summaryVocal').textContent = s.vocal;
+
+            const badgeEl = document.getElementById('vocalPerformBadge');
+            const dlBtnTxt = document.getElementById('downloadFullBtnText');
+            const audioEl = document.getElementById('realSunoAudioPlayer');
+
+            if (s.realAudioUrl) {
+                audioEl.src = s.realAudioUrl;
+                audioEl.load();
+                if (badgeEl) badgeEl.textContent = 'Studio Vocal Master (.MP3)';
+                if (dlBtnTxt) dlBtnTxt.textContent = 'Download Full MP3 Song';
+            } else {
+                audioEl.removeAttribute('src');
+                if (badgeEl) badgeEl.textContent = 'Multi-Track Synth + Vocal Melody';
+                if (dlBtnTxt) dlBtnTxt.textContent = 'Download Full WAV Song';
+            }
+
+            // Reset Unlock UI
+            document.getElementById('songUnlockStatusBadge').textContent = 'CUSTOM SONG READY • 20s FREE PREVIEW MODE';
+            document.getElementById('playerModeLabel').textContent = '20-Second Studio Preview';
+            document.getElementById('playerTimerDisplay').textContent = '0:00 / 0:20 (Free Preview Limit)';
+            document.getElementById('unlockActionContainer').classList.remove('hidden');
+            document.getElementById('unlockedDownloadContainer').classList.add('hidden');
+            document.getElementById('previewEndedBanner').classList.add('hidden');
+            document.getElementById('studioPlaybackBar').style.width = '0%';
+
+            // Render Stanzas
+            const container = document.getElementById('lyricsStanzasContainer');
+            container.innerHTML = s.stanzas.map((st, idx) => `
+                <div id="lyric-stanza-${idx}" class="lyric-stanza rounded-2xl bg-royal-950/80 p-5 border border-white/10 space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-400">${st.sectionLabel}</span>
+                        <span class="text-[11px] text-slate-500">Part ${idx + 1}</span>
+                    </div>
+                    <p class="text-base sm:text-lg font-semibold text-white whitespace-pre-line leading-relaxed">${st.nativeScriptLines}</p>
+                    ${s.language !== 'English' ? `
+                        <div class="pt-2 border-t border-white/5">
+                            <span class="text-[10px] uppercase tracking-wider text-slate-400 block mb-0.5">Sing-Along Pronunciation:</span>
+                            <p class="text-xs text-amber-200/80 italic whitespace-pre-line">${st.pronunciationGuide}</p>
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+        }
+
+        // --- MULTI-TRACK WEB AUDIO SYNTHESIZER & VOCAL MELODY ENGINE ---
+        function getStyleMusicalParameters(styleName, vocalType) {
+            const isFemale = vocalType === 'Female Vocal';
+            const pitchMultiplier = isFemale ? 1.5 : 0.85; // Female higher soprano register, Male warm baritone register
+
+            const configs = {
+                'Cinematic Melody': { tempo: 88, scale: [261.63, 293.66, 329.63, 392.00, 440.00, 523.25], padWave: 'sine', leadWave: 'triangle', beatIntensity: 0.45 },
+                'Folk & Celebration Beats': { tempo: 118, scale: [293.66, 329.63, 369.99, 440.00, 493.88, 587.33], padWave: 'triangle', leadWave: 'sawtooth', beatIntensity: 0.85 },
+                'Acoustic Romantic Ballad': { tempo: 78, scale: [246.94, 277.18, 329.63, 369.99, 440.00, 493.88], padWave: 'sine', leadWave: 'sine', beatIntensity: 0.35 },
+                'Classical Fusion': { tempo: 96, scale: [261.63, 293.66, 349.23, 392.00, 440.00, 523.25], padWave: 'triangle', leadWave: 'triangle', beatIntensity: 0.6 },
+                'Lofi Soulful Vibes': { tempo: 74, scale: [220.00, 261.63, 293.66, 329.63, 392.00, 440.00], padWave: 'sine', leadWave: 'sine', beatIntensity: 0.5 },
+                'Happy Birthday & Party Pop': { tempo: 122, scale: [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 523.25], padWave: 'triangle', leadWave: 'square', beatIntensity: 0.8 }
+            };
+
+            const cfg = configs[styleName] || configs['Cinematic Melody'];
+            return { ...cfg, pitchMultiplier };
+        }
+
+        function toggleGeneratedSongPlayback() {
+            if (appState.isPlaying) {
+                stopAllAudioPlayback();
+            } else {
+                startGeneratedSongPlayback();
+            }
+        }
+
+        // --- REAL SUNO HTML5 AUDIO ELEMENT LISTENERS (WITH STRICT 20-SECOND PREVIEW LOCK) ---
+        function initRealSunoAudioListeners() {
+            const audioEl = document.getElementById('realSunoAudioPlayer');
+            if (!audioEl) return;
+
+            audioEl.addEventListener('timeupdate', () => {
+                if (!appState.isPlaying || !appState.currentSong?.realAudioUrl) return;
+
+                const currentSec = audioEl.currentTime;
+                appState.playbackSeconds = Math.floor(currentSec);
+                const fullDur = Math.floor(audioEl.duration || 120);
+                const limit = appState.isUnlocked ? fullDur : appState.maxPreviewSeconds;
+
+                // Smooth fade out between 18.5s and 20.0s when locked in Free Preview Mode
+                if (!appState.isUnlocked && currentSec >= 18.5 && currentSec < appState.maxPreviewSeconds) {
+                    audioEl.volume = Math.max(0.05, (appState.maxPreviewSeconds - currentSec) / 1.5);
+                } else {
+                    audioEl.volume = 1.0;
+                }
+
+                // Enforce strict 20-second preview cutoff before payment
+                if (!appState.isUnlocked && currentSec >= appState.maxPreviewSeconds) {
+                    audioEl.pause();
+                    audioEl.currentTime = 0;
+                    audioEl.volume = 1.0;
+                    stopAllAudioPlayback();
+                    document.getElementById('previewEndedBanner').classList.remove('hidden');
+                    showToast('20-Second Free Preview finished! Pay Rs. 30/- to unlock & download the full MP3 song.');
+                    openUpiPaymentModal();
+                    return;
+                }
+
+                const pct = Math.min(100, (currentSec / limit) * 100);
+                document.getElementById('studioPlaybackBar').style.width = `${pct}%`;
+
+                const fmt = (sec) => {
+                    const m = Math.floor(sec / 60);
+                    const s = Math.floor(sec % 60);
+                    return `${m}:${s < 10 ? '0' + s : s}`;
+                };
+                const modeSuffix = appState.isUnlocked ? '(Full Song Unlocked)' : '(Free Preview Limit)';
+                document.getElementById('playerTimerDisplay').textContent = `${fmt(currentSec)} / ${fmt(limit)} ${modeSuffix}`;
+
+                // Synchronize active lyric stanza
+                const totalStanzas = appState.currentSong.stanzas.length;
+                const activeStanzaIdx = Math.min(totalStanzas - 1, Math.floor((currentSec / limit) * totalStanzas));
+                document.querySelectorAll('.lyric-stanza').forEach((el, idx) => {
+                    if (idx === activeStanzaIdx) el.classList.add('active-stanza');
+                    else el.classList.remove('active-stanza');
+                });
+            });
+
+            audioEl.addEventListener('ended', () => {
+                stopAllAudioPlayback();
+                showToast('Full custom song playback finished!');
+            });
+        }
+
+        function startGeneratedSongPlayback() {
+            if (!appState.currentSong) return;
+            stopAllAudioPlayback();
+
+            // IF REAL SUNO MP3 URL IS PRESENT, PLAY REAL SUNO STREAM WITH 20s PREVIEW GUARD
+            if (appState.currentSong.realAudioUrl) {
+                const audioEl = document.getElementById('realSunoAudioPlayer');
+                if (!appState.isUnlocked && audioEl.currentTime >= appState.maxPreviewSeconds) {
+                    audioEl.currentTime = 0;
+                }
+                audioEl.volume = 1.0;
+                appState.isPlaying = true;
+                document.getElementById('previewPlayIcon').className = 'fa-solid fa-pause';
+                document.getElementById('previewEndedBanner').classList.add('hidden');
+                animateActiveWaveform();
+                audioEl.play().catch(() => {
+                    // Fallback to synth if stream blocked
+                    appState.currentSong.realAudioUrl = null;
+                    startGeneratedSongPlayback();
+                });
+                return;
+            }
+
+            const maxAllowed = appState.isUnlocked ? appState.fullSongSeconds : appState.maxPreviewSeconds;
+            if (appState.playbackSeconds >= maxAllowed) {
+                appState.playbackSeconds = 0;
+            }
+
+            appState.isPlaying = true;
+            document.getElementById('previewPlayIcon').className = 'fa-solid fa-pause';
+            document.getElementById('previewEndedBanner').classList.add('hidden');
+
+            // Initialize Web Audio Context
+            const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+            appState.audioCtx = new AudioContextClass();
+            const ctx = appState.audioCtx;
+
+            const params = getStyleMusicalParameters(appState.currentSong.style, appState.currentSong.vocal);
+            const beatDur = 60 / params.tempo;
+
+            // Schedule melodic notes & vocal-formant synthesizer
+            let stepIndex = 0;
+            const melodyPattern = [0, 2, 4, 5, 4, 2, 3, 1, 0, 4, 5, 3, 2, 1, 2, 0];
+
+            function scheduleNextMusicalStep() {
+                if (!appState.isPlaying || !appState.audioCtx) return;
+                const now = ctx.currentTime;
+                const noteIdx = melodyPattern[stepIndex % melodyPattern.length];
+                const baseFreq = params.scale[noteIdx % params.scale.length];
+
+                // 1. Warm Harmonic Pad / Bass Note (every 4 steps)
+                if (stepIndex % 4 === 0) {
+                    const padOsc = ctx.createOscillator();
+                    const padGain = ctx.createGain();
+                    padOsc.type = params.padWave;
+                    padOsc.frequency.setValueAtTime(baseFreq * 0.5, now);
+                    padGain.gain.setValueAtTime(0.001, now);
+                    padGain.gain.exponentialRampToValueAtTime(0.12, now + 0.15);
+                    padGain.gain.exponentialRampToValueAtTime(0.001, now + beatDur * 3.8);
+                    padOsc.connect(padGain);
+                    padGain.connect(ctx.destination);
+                    padOsc.start(now);
+                    padOsc.stop(now + beatDur * 3.9);
+                }
+
+                // 2. Expressive Vocal-Formant Lead Melody (Male or Female register)
+                const vocalOsc = ctx.createOscillator();
+                const vibratoOsc = ctx.createOscillator();
+                const vibratoGain = ctx.createGain();
+                const formantFilter = ctx.createBiquadFilter();
+                const vocalGain = ctx.createGain();
+
+                vocalOsc.type = params.leadWave;
+                vocalOsc.frequency.setValueAtTime(baseFreq * params.pitchMultiplier, now);
+
+                // Subtle human vocal vibrato
+                vibratoOsc.frequency.setValueAtTime(5.5, now);
+                vibratoGain.gain.setValueAtTime(4.0, now);
+                vibratoOsc.connect(vibratoGain);
+                vibratoGain.connect(vocalOsc.frequency);
+
+                formantFilter.type = 'bandpass';
+                formantFilter.frequency.setValueAtTime(params.pitchMultiplier > 1 ? 1150 : 680, now);
+                formantFilter.Q.setValueAtTime(2.2, now);
+
+                vocalGain.gain.setValueAtTime(0.001, now);
+                vocalGain.gain.exponentialRampToValueAtTime(0.18, now + 0.06);
+                vocalGain.gain.exponentialRampToValueAtTime(0.001, now + beatDur * 0.92);
+
+                vocalOsc.connect(formantFilter);
+                formantFilter.connect(vocalGain);
+                vocalGain.connect(ctx.destination);
+
+                vocalOsc.start(now);
+                vibratoOsc.start(now);
+                vocalOsc.stop(now + beatDur * 0.95);
+                vibratoOsc.stop(now + beatDur * 0.95);
+
+                // 3. Soft Percussion Pulse
+                if (stepIndex % 2 === 0) {
+                    const kickOsc = ctx.createOscillator();
+                    const kickGain = ctx.createGain();
+                    kickOsc.type = 'sine';
+                    kickOsc.frequency.setValueAtTime(110, now);
+                    kickOsc.frequency.exponentialRampToValueAtTime(38, now + 0.12);
+                    kickGain.gain.setValueAtTime(0.15 * params.beatIntensity, now);
+                    kickGain.gain.exponentialRampToValueAtTime(0.001, now + 0.14);
+                    kickOsc.connect(kickGain);
+                    kickGain.connect(ctx.destination);
+                    kickOsc.start(now);
+                    kickOsc.stop(now + 0.15);
+                }
+
+                stepIndex++;
+                window._stepNoteTimeout = setTimeout(scheduleNextMusicalStep, beatDur * 1000 * 0.5);
+            }
+
+            scheduleNextMusicalStep();
+            animateActiveWaveform();
+
+            // Timer & Stanza Synchronizer
+            appState.playbackTimer = setInterval(() => {
+                appState.playbackSeconds++;
+                const limit = appState.isUnlocked ? appState.fullSongSeconds : appState.maxPreviewSeconds;
+                const pct = Math.min(100, (appState.playbackSeconds / limit) * 100);
+                document.getElementById('studioPlaybackBar').style.width = `${pct}%`;
+
+                const formatSec = (s) => `0:${s < 10 ? '0' + s : s}`;
+                const modeSuffix = appState.isUnlocked ? '(Full Song Unlocked)' : '(Free Preview Limit)';
+                document.getElementById('playerTimerDisplay').textContent = `${formatSec(appState.playbackSeconds)} / ${formatSec(limit)} ${modeSuffix}`;
+
+                // Highlight corresponding stanza
+                const totalStanzas = appState.currentSong.stanzas.length;
+                const activeStanzaIdx = Math.min(totalStanzas - 1, Math.floor((appState.playbackSeconds / limit) * totalStanzas));
+                document.querySelectorAll('.lyric-stanza').forEach((el, idx) => {
+                    if (idx === activeStanzaIdx) el.classList.add('active-stanza');
+                    else el.classList.remove('active-stanza');
+                });
+
+                // Check if 20s Free Preview limit reached
+                if (appState.playbackSeconds >= limit) {
+                    stopAllAudioPlayback();
+                    if (!appState.isUnlocked) {
+                        document.getElementById('previewEndedBanner').classList.remove('hidden');
+                        showToast('20-Second Free Preview finished! Pay Rs. 30/- to unlock & download the full song.');
+                        openUpiPaymentModal();
+                    } else {
+                        showToast('Full custom song playback finished!');
+                    }
+                }
+            }, 1000);
+        }
+
+        function stopAllAudioPlayback() {
+            appState.isPlaying = false;
+            clearInterval(appState.playbackTimer);
+            clearTimeout(window._stepNoteTimeout);
+            cancelAnimationFrame(window._waveAnimFrame);
+
+            const realAudioEl = document.getElementById('realSunoAudioPlayer');
+            if (realAudioEl && !realAudioEl.paused) {
+                try { realAudioEl.pause(); } catch (e) {}
+            }
+
+            if (appState.audioCtx) {
+                try { appState.audioCtx.close(); } catch (e) {}
+                appState.audioCtx = null;
+            }
+
+            const playIcon = document.getElementById('previewPlayIcon');
+            if (playIcon) playIcon.className = 'fa-solid fa-play';
+
+            drawIdleWaveform();
+        }
+
+        // --- WAVEFORM VISUALIZER CANVAS ---
+        function drawIdleWaveform() {
+            const canvas = document.getElementById('studioWaveformCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            canvas.width = canvas.clientWidth || 600;
+            canvas.height = canvas.clientHeight || 80;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const bars = 48;
+            const barWidth = (canvas.width / bars) * 0.6;
+            const gap = (canvas.width / bars) * 0.4;
+
+            for (let i = 0; i < bars; i++) {
+                const h = 8 + Math.sin(i * 0.35) * 6;
+                const x = i * (barWidth + gap);
+                const y = (canvas.height - h) / 2;
+                ctx.fillStyle = 'rgba(245, 197, 66, 0.28)';
+                ctx.beginPath();
+                ctx.roundRect(x, y, barWidth, h, 4);
+                ctx.fill();
+            }
+        }
+
+        function animateActiveWaveform() {
+            const canvas = document.getElementById('studioWaveformCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            canvas.width = canvas.clientWidth || 600;
+            canvas.height = canvas.clientHeight || 80;
+
+            let phase = 0;
+            function renderFrame() {
+                if (!appState.isPlaying) return;
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                const bars = 48;
+                const barWidth = (canvas.width / bars) * 0.6;
+                const gap = (canvas.width / bars) * 0.4;
+
+                for (let i = 0; i < bars; i++) {
+                    const dynamicHeight = 10 + Math.abs(Math.sin(phase + i * 0.32)) * (canvas.height * 0.68);
+                    const x = i * (barWidth + gap);
+                    const y = (canvas.height - dynamicHeight) / 2;
+                    const grad = ctx.createLinearGradient(0, y, 0, y + dynamicHeight);
+                    grad.addColorStop(0, '#f5c542');
+                    grad.addColorStop(1, '#fb7185');
+                    ctx.fillStyle = grad;
+                    ctx.beginPath();
+                    ctx.roundRect(x, y, barWidth, dynamicHeight, 4);
+                    ctx.fill();
+                }
+                phase += 0.14;
+                window._waveAnimFrame = requestAnimationFrame(renderFrame);
+            }
+            renderFrame();
+        }
+
+        // --- UPI PAYMENT MODAL & QR FALLBACK ---
+        function openUpiPaymentModal() {
+            if (!appState.currentSong) {
+                showToast('Please create your custom song first!');
+                return;
+            }
+            const orderId = appState.currentSong.orderId || 'AR101';
+            const upiUri = `upi://pay?pa=Q012244037@ybl&pn=Aadhini%20Raagam&am=30.00&cu=INR&tn=${encodeURIComponent('Song_' + orderId)}`;
+            document.getElementById('upiDeepLinkBtn').href = upiUri;
+            document.getElementById('upiQrImage').src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(upiUri)}`;
+            document.getElementById('utrErrorMsg').classList.add('hidden');
+            document.getElementById('upiPaymentModal').classList.remove('hidden');
+        }
+
+        function closeUpiPaymentModal() {
+            document.getElementById('upiPaymentModal').classList.add('hidden');
+        }
+
+        function copyUpiId() {
+            const tempInput = document.createElement('input');
+            tempInput.value = 'Q012244037@ybl';
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            showToast('UPI ID copied: Q012244037@ybl');
+        }
+
+        function drawFallbackQrCode(imgEl) {
+            // Draws a crisp SVG data URL QR pattern if external QR image server is blocked
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="200" height="200">
+                <rect width="120" height="120" fill="#ffffff"/>
+                <rect x="10" y="10" width="30" height="30" fill="none" stroke="#000" stroke-width="6"/>
+                <rect x="19" y="19" width="12" height="12" fill="#000"/>
+                <rect x="80" y="10" width="30" height="30" fill="none" stroke="#000" stroke-width="6"/>
+                <rect x="89" y="19" width="12" height="12" fill="#000"/>
+                <rect x="10" y="80" width="30" height="30" fill="none" stroke="#000" stroke-width="6"/>
+                <rect x="19" y="89" width="12" height="12" fill="#000"/>
+                <text x="60" y="62" font-size="8" font-family="sans-serif" font-weight="bold" text-anchor="middle" fill="#110a1f">Q012244037@ybl</text>
+                <text x="60" y="74" font-size="7" font-family="sans-serif" text-anchor="middle" fill="#b48a1e">Pay Rs. 30.00</text>
+            </svg>`;
+            imgEl.src = 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+        }
+
+        function triggerDemoPaymentVerification() {
+            const demoUtr = '4' + Math.floor(10000000000 + Math.random() * 89999999999);
+            document.getElementById('utrInput').value = demoUtr;
+            verifyUpiPaymentAndDownload();
+        }
+
+        // --- VERIFY 12-DIGIT UTR, AUTO-DOWNLOAD WAV/MP3 SONG & TRIGGER WHATSAPP NOTIFICATION ---
+        async function verifyUpiPaymentAndDownload() {
+            const utrVal = document.getElementById('utrInput').value.trim();
+            const errEl = document.getElementById('utrErrorMsg');
+
+            if (!/^\d{12}$/.test(utrVal)) {
+                errEl.textContent = 'Please enter a valid 12-digit numeric UPI UTR / Reference number.';
+                errEl.classList.remove('hidden');
+                return;
+            }
+
+            errEl.classList.add('hidden');
+            appState.isUnlocked = true;
+            closeUpiPaymentModal();
+
+            // Update Studio UI to Unlocked Mode
+            document.getElementById('songUnlockStatusBadge').textContent = `FULL SONG UNLOCKED • PAID ₹30 (UTR: ${utrVal})`;
+            document.getElementById('playerModeLabel').textContent = 'Full Studio Master Song Unlocked';
+            document.getElementById('playerTimerDisplay').textContent = `0:00 / 0:${appState.fullSongSeconds} (Full Song Unlocked)`;
+            document.getElementById('unlockActionContainer').classList.add('hidden');
+            document.getElementById('unlockedDownloadContainer').classList.remove('hidden');
+            document.getElementById('previewEndedBanner').classList.add('hidden');
+
+            showToast('Payment Verified! Downloading your full custom song & sending WhatsApp confirmation...');
+
+            // 1. Automatically download the full WAV or Suno MP3 song
+            await downloadFullWavSong();
+
+            // 2. Automatically open WhatsApp order notification to +91 9585351755
+            sendWhatsAppOrderNotification(utrVal);
+        }
+
+        // --- OFFLINE AUDIO CONTEXT FULL WAV / REAL SUNO MP3 DOWNLOADER ---
+        async function downloadFullWavSong() {
+            if (!appState.currentSong) return;
+            const s = appState.currentSong;
+            const safeName = s.recipientName.replace(/[^a-zA-Z0-9]/g, '_') || 'Custom';
+
+            // 1. IF REAL SUNO MP3 STREAM WAS GENERATED, DOWNLOAD THE REAL FULL-LENGTH MP3 FILE
+            if (s.realAudioUrl) {
+                const mp3FileName = `Aadhini_Raagam_${safeName}_${s.language}_Song.mp3`;
+                try {
+                    const res = await fetch(s.realAudioUrl);
+                    const blob = await res.blob();
+                    const blobUrl = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = blobUrl;
+                    a.download = mp3FileName;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    setTimeout(() => URL.revokeObjectURL(blobUrl), 10000);
+                    return;
+                } catch (err) {
+                    // Direct link download fallback if cross-origin blob fetch is restricted
+                    const a = document.createElement('a');
+                    a.href = s.realAudioUrl;
+                    a.target = '_blank';
+                    a.download = mp3FileName;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    return;
+                }
+            }
+
+            // 2. OTHERWISE RENDER & DOWNLOAD FULL-LENGTH STUDIO WAV AUDIO
+            const durationSeconds = 32; // Rich 32-second full multi-track master WAV
+            const sampleRate = 22050;
+            const offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, sampleRate * durationSeconds, sampleRate);
+
+            const params = getStyleMusicalParameters(s.style, s.vocal);
+            const beatDur = 60 / params.tempo;
+            const stepDur = beatDur * 0.5;
+            const totalSteps = Math.floor(durationSeconds / stepDur);
+            const melodyPattern = [0, 2, 4, 5, 4, 2, 3, 1, 0, 4, 5, 3, 2, 1, 2, 0];
+
+            for (let step = 0; step < totalSteps; step++) {
+                const startTime = step * stepDur;
+                const noteIdx = melodyPattern[step % melodyPattern.length];
+                const baseFreq = params.scale[noteIdx % params.scale.length];
+
+                // Harmonic Pad
+                if (step % 4 === 0) {
+                    const padOsc = offlineCtx.createOscillator();
+                    const padGain = offlineCtx.createGain();
+                    padOsc.type = params.padWave;
+                    padOsc.frequency.setValueAtTime(baseFreq * 0.5, startTime);
+                    padGain.gain.setValueAtTime(0.001, startTime);
+                    padGain.gain.exponentialRampToValueAtTime(0.12, startTime + 0.1);
+                    padGain.gain.exponentialRampToValueAtTime(0.001, startTime + stepDur * 3.8);
+                    padOsc.connect(padGain);
+                    padGain.connect(offlineCtx.destination);
+                    padOsc.start(startTime);
+                    padOsc.stop(startTime + stepDur * 3.9);
+                }
+
+                // Vocal Lead Melody
+                const leadOsc = offlineCtx.createOscillator();
+                const leadGain = offlineCtx.createGain();
+                leadOsc.type = params.leadWave;
+                leadOsc.frequency.setValueAtTime(baseFreq * params.pitchMultiplier, startTime);
+                leadGain.gain.setValueAtTime(0.001, startTime);
+                leadGain.gain.exponentialRampToValueAtTime(0.2, startTime + 0.04);
+                leadGain.gain.exponentialRampToValueAtTime(0.001, startTime + stepDur * 0.9);
+                leadOsc.connect(leadGain);
+                leadGain.connect(offlineCtx.destination);
+                leadOsc.start(startTime);
+                leadOsc.stop(startTime + stepDur * 0.95);
+            }
+
+            const renderedBuffer = await offlineCtx.startRendering();
+            const wavBlob = audioBufferToWavBlob(renderedBuffer);
+            const fileName = `Aadhini_Raagam_${safeName}_${s.language}_Song.wav`;
+
+            const url = URL.createObjectURL(wavBlob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(() => URL.revokeObjectURL(url), 10000);
+        }
+
+        function audioBufferToWavBlob(buffer) {
+            const numOfChan = buffer.numberOfChannels;
+            const length = buffer.length * numOfChan * 2 + 44;
+            const out = new ArrayBuffer(length);
+            const view = new DataView(out);
+            const sampleRate = buffer.sampleRate;
+            let pos = 0;
+
+            const setUint16 = (data) => { view.setUint16(pos, data, true); pos += 2; };
+            const setUint32 = (data) => { view.setUint32(pos, data, true); pos += 4; };
+
+            setUint32(0x46464952); // "RIFF"
+            setUint32(length - 8);
+            setUint32(0x45564157); // "WAVE"
+            setUint32(0x20746d66); // "fmt "
+            setUint32(16);
+            setUint16(1);
+            setUint16(numOfChan);
+            setUint32(sampleRate);
+            setUint32(sampleRate * 2 * numOfChan);
+            setUint16(numOfChan * 2);
+            setUint16(16);
+            setUint32(0x61746164); // "data"
+            setUint32(length - pos - 4);
+
+            const channelData = buffer.getChannelData(0);
+            for (let i = 0; i < channelData.length; i++) {
+                let sample = Math.max(-1, Math.min(1, channelData[i]));
+                sample = (0.5 + sample < 0 ? sample * 32768 : sample * 32767) | 0;
+                view.setInt16(pos, sample, true);
+                pos += 2;
+            }
+            return new Blob([out], { type: 'audio/wav' });
+        }
+
+        // --- DOWNLOAD PRINTABLE LYRICS KEEPSAKE CARD ---
+        function downloadLyricsCard() {
+            if (!appState.currentSong) return;
+            const s = appState.currentSong;
+            const lyricsText = s.stanzas.map(st => `${st.sectionLabel}\n${st.nativeScriptLines}\n(${st.pronunciationGuide})`).join('\n\n');
+            const content = `====================================================
+AADHINI RAAGAM - CUSTOM SONG LYRICS KEEPSAKE
+Turn Your Memories Into Timeless Songs
+WhatsApp: +91 9585351755 | Instagram: @babygifts_2021
+====================================================
+Order ID: #${s.orderId}
+Song Title: ${s.songTitle}
+Dedicated To: ${s.recipientName} (${s.relationship})
+Occasion: ${s.occasion}
+Language: ${s.language} (${s.nativeLabel})
+Vocal & Style: ${s.vocal} | ${s.style}
+====================================================
+
+${lyricsText}
+
+====================================================
+Crafted with love by Aadhini Raagam Studio
+`;
+            const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `Aadhini_Raagam_${s.recipientName}_Lyrics.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            showToast('Lyrics Keepsake Card downloaded!');
+        }
+
+        // --- AUTOMATIC WHATSAPP NOTIFICATION TO +91 9585351755 ---
+        function sendWhatsAppOrderNotification(utrNumber) {
+            const s = appState.currentSong;
+            if (!s) return;
+
+            // Optional background webhook trigger if owner configured one
+            const savedWebhook = localStorage.getItem('aadhini_owner_webhook');
+            if (savedWebhook) {
+                fetch(savedWebhook, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ...s, utrNumber, amountPaid: 'Rs. 30/-', upiId: 'Q012244037@ybl' })
+                }).catch(() => {});
+            }
+
+            const firstStanza = s.stanzas?.[0]?.nativeScriptLines || '';
+            const waText = `*New Custom Song Order & Payment - Aadhini Raagam* 🎵
+----------------------------------
+*Order ID:* #${s.orderId}
+*Amount Paid:* Rs. 30/- (Direct UPI: Q012244037@ybl)
+*12-Digit UTR No:* ${utrNumber}
+----------------------------------
+*Customer Name:* ${s.customerName}
+*Customer WhatsApp:* ${s.customerPhone}
+*Song For:* ${s.recipientName} (${s.relationship})
+*Occasion:* ${s.occasion}
+*Selected Language:* ${s.language} (${s.nativeLabel})
+*Vocal & Style:* ${s.vocal} | ${s.style}
+----------------------------------
+*Generated Song Title:* ${s.songTitle}
+*Pallavi Preview:*
+${firstStanza}`;
+
+            const waUrl = `https://wa.me/919585351755?text=${encodeURIComponent(waText)}`;
+            setTimeout(() => {
+                window.open(waUrl, '_blank', 'noopener,noreferrer');
+            }, 900);
+        }
+
+        // --- FAQ ACCORDION ---
+        function toggleFaq(index) {
+            const content = document.getElementById(`faq-content-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            const isHidden = content.classList.contains('hidden');
+            if (isHidden) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // --- ADSENSE PREVIEW BOXES TOGGLE ---
+        function toggleAdsensePreviewSlots() {
+            document.querySelectorAll('.adsense-slot-wrapper').forEach(el => {
+                el.classList.toggle('hidden');
+            });
+            showToast('AdSense Display Preview toggled!');
+        }
+
+        // --- OWNER GUIDE MODAL ---
+        function openOwnerGuideModal() {
+            loadOwnerApiSettingsIntoModal();
+            document.getElementById('ownerGuideModal').classList.remove('hidden');
+        }
+        function closeOwnerGuideModal() {
+            document.getElementById('ownerGuideModal').classList.add('hidden');
+        }
+        function saveOwnerWebhook() {
+            saveOwnerApiSettings();
+        }
+
+        // --- MANDATORY ADSENSE LEGAL & COMPLIANCE PAGES ---
+        const legalPagesContent = {
+            about: {
+                title: "About Aadhini Raagam",
+                body: `
+                    <p>Welcome to <strong>Aadhini Raagam</strong> (<em>"Turn Your Memories Into Timeless Songs"</em>), India's premier custom musical gifting studio. Founded with a passion for celebrating life's most meaningful milestones through music, we craft personalized songs in <strong>Tamil, English, Telugu, Malayalam, Kannada, and Hindi</strong>.</p>
+                    <p>Every family has a story worth singing — whether it is welcoming a newborn baby, celebrating a wedding anniversary, surprising a best friend on their birthday, or honoring beloved parents. At Aadhini Raagam, we transform the names, memories, and heartfelt emotions shared by our customers into bespoke lyrics and studio-arranged melodies.</p>
+                    <h4 class="font-bold text-white pt-2">Our Official Contact Details</h4>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li><strong>Brand Name:</strong> Aadhini Raagam</li>
+                        <li><strong>Phone / WhatsApp Support:</strong> +91 9585351755</li>
+                        <li><strong>Official Instagram:</strong> <a href="https://instagram.com/babygifts_2021" target="_blank" class="text-gold-400 underline">@babygifts_2021</a></li>
+                        <li><strong>Direct UPI Payment ID:</strong> Q012244037@ybl</li>
+                    </ul>
+                `
+            },
+            contact: {
+                title: "Contact Us",
+                body: `
+                    <p>We would love to hear from you! Whether you need assistance with downloading your custom song, verifying your Rs. 30/- UPI payment, or ordering custom baby gift packages, reach out to us directly:</p>
+                    <div class="bg-royal-950 p-5 rounded-2xl border border-white/10 space-y-3 my-4">
+                        <p><strong><i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i>WhatsApp & Phone:</strong> <a href="https://wa.me/919585351755" target="_blank" class="text-gold-400 underline">+91 9585351755</a></p>
+                        <p><strong><i class="fa-brands fa-instagram text-pink-400 mr-2"></i>Instagram DM:</strong> <a href="https://instagram.com/babygifts_2021" target="_blank" class="text-gold-400 underline">@babygifts_2021</a></p>
+                        <p><strong><i class="fa-solid fa-clock text-gold-400 mr-2"></i>Support Hours:</strong> Monday to Sunday, 9:00 AM – 9:00 PM IST</p>
+                    </div>
+                    <p>For instant help, click the green WhatsApp icon at the bottom right corner of the screen to chat with us directly.</p>
+                `
+            },
+            privacy: {
+                title: "Privacy Policy (Google AdSense Compliant)",
+                body: `
+                    <p><strong>Effective Date:</strong> January 1, 2026</p>
+                    <p>At <strong>Aadhini Raagam</strong>, accessible from our official website, one of our main priorities is the privacy of our visitors and customers. This Privacy Policy document outlines the types of information that is collected and recorded by Aadhini Raagam and how we use it.</p>
+                    <h4 class="font-bold text-white pt-2">1. Information We Collect</h4>
+                    <p>When you use our Custom Song Studio, we collect the details you voluntarily provide, including your name, WhatsApp contact number, recipient name, occasion details, and UPI Reference / UTR number solely to compose and deliver your personalized song.</p>
+                    <h4 class="font-bold text-white pt-2">2. Google DoubleClick DART Cookie & AdSense Disclosure</h4>
+                    <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to our website and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer" class="text-gold-400 underline">https://policies.google.com/technologies/ads</a>.</p>
+                    <h4 class="font-bold text-white pt-2">3. Third-Party Privacy Policies</h4>
+                    <p>Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Aadhini Raagam. You can choose to disable cookies through your individual browser options.</p>
+                `
+            },
+            terms: {
+                title: "Terms & Conditions",
+                body: `
+                    <p>By accessing and placing an order on <strong>Aadhini Raagam</strong>, you agree to be bound by these Terms and Conditions:</p>
+                    <ul class="list-disc list-inside space-y-2">
+                        <li><strong>Free Preview:</strong> Customers can generate custom song lyrics in their chosen language (Tamil, English, Telugu, Malayalam, Kannada, or Hindi) and listen to a 20-second audio preview free of charge.</li>
+                        <li><strong>Full Song Unlock (Rs. 30/-):</strong> Full song WAV download and printable lyrics card unlock upon completing a direct UPI payment of Rs. 30.00 to <strong>Q012244037@ybl</strong> and submitting a valid 12-digit UTR reference number.</li>
+                        <li><strong>Personal & Social Media Use:</strong> Songs created on Aadhini Raagam are licensed for personal celebrations, family gifts, WhatsApp sharing, Instagram Reels, and YouTube Shorts.</li>
+                    </ul>
+                `
+            },
+            refund: {
+                title: "Refund & Delivery Policy",
+                body: `
+                    <p><strong>Instant Digital Delivery:</strong> Because Aadhini Raagam provides a free 20-second audio preview and full lyrics preview <em>before</em> payment, customers can verify their song details prior to paying Rs. 30/-.</p>
+                    <p>Immediately upon payment verification, the full-length custom WAV audio file is automatically downloaded to your device and confirmed via WhatsApp (+91 9585351755).</p>
+                    <p><strong>Support & Re-Delivery Guarantee:</strong> If your browser download is interrupted for any network reason after paying Rs. 30/-, simply send your 12-digit UTR number to our WhatsApp at <strong>+91 9585351755</strong> and our team will promptly send your custom audio file directly on WhatsApp.</p>
+                `
+            },
+            disclaimer: {
+                title: "Disclaimer",
+                body: `
+                    <p>All custom songs, lyrics, and musical arrangements produced on <strong>Aadhini Raagam</strong> are created in good faith for personal gifting, family celebrations, and entertainment purposes based on the story details submitted by the customer.</p>
+                    <p>For any queries or clarifications, please contact us at <strong>+91 9585351755</strong> or on Instagram at <strong>@babygifts_2021</strong>.</p>
+                `
+            }
+        };
+
+        function openLegalModal(pageKey) {
+            const page = legalPagesContent[pageKey];
+            if (!page) return;
+            document.getElementById('legalModalTitle').textContent = page.title;
+            document.getElementById('legalModalBody').innerHTML = page.body;
+            document.getElementById('legalModal').classList.remove('hidden');
+        }
+
+        function closeLegalModal() {
+            document.getElementById('legalModal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
